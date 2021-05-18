@@ -1,0 +1,5 @@
+transformers
+sentencepiece
+protobuf
+streamlit
+flask
