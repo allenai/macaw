@@ -70,7 +70,7 @@ Some suggestive examples from the Macaw (11B) model, for different angles:
 
 ## Demo
 
-See [here](demo/README.md) for instructions and code to run an interactive version of Macaw.
+See [here](demo) for instructions and code to run an interactive version of Macaw.
 
 ## Training data
 
