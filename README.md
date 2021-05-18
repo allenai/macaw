@@ -98,7 +98,7 @@ Macaw models in three different sizes can be accessed from the Hugging Face mode
 
    * [macaw-11b](https://huggingface.co/allenai/macaw-11b)  (11 billion parameters)
    * [macaw-3b](https://huggingface.co/allenai/macaw-3b)  (3 billion parameters)
-   * [macaw-large](https://huggingface.co/allenai/macaw-3b)  (770 million parameters)
+   * [macaw-large](https://huggingface.co/allenai/macaw-large)  (770 million parameters)
 
 For a sense of the degradation in performance for the smaller sizes, here are baseline scores on the ARC Challenge and 
 ARC Easy multiple-choice development questions. Included are variants with and without IR context from a large science 
