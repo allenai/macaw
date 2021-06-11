@@ -68,7 +68,7 @@ Some suggestive examples from the Macaw (11B) model, for different angles:
   → M: (A) car battery (B) windshield wiper blade (C) car radio (D) car radio antenna
   
   
-### Probing examples
+## Probing examples
 
 A set of 300 diverse probing examples can be found in [macaw-probes-v1.jsonl](macaw-probes-v1.jsonl). The output
 from Macaw (at different sizes), as well as an alternate T5 model trained on NaturalQuestions, can be seen
