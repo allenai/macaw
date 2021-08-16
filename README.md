@@ -70,8 +70,8 @@ Some suggestive examples from the Macaw (11B) model, for different angles:
   
 ## Probing examples
 
-A set of 300 diverse probing examples can be found in [macaw-probes-v1.jsonl](macaw-probes-v1.jsonl). The output
-from Macaw (at different sizes), as well as an alternate T5 model trained on NaturalQuestions, can be seen
+The Challenge300 set of 300 diverse probing examples can be found in [challenge300-probes-v1.jsonl](challenge300-probes-v1.jsonl). The output
+from Macaw (at different sizes), as well as outputs from GPT3 and alternate T5 models trained on NaturalQuestions, can be seen
 [here](examples.md).
 
 ## Demo
@@ -95,8 +95,17 @@ model [T5](https://github.com/google-research/text-to-text-transfer-transformer)
        
    2. Further fine-tuning of Multi-Angle UnifiedQA on multiple-choice and direct-answer elementary science questions, 
    along with (up to 5) explanation sentences from [WorldTreeV2](http://cognitiveai.org/explanationbank/): 
-       * [ARC](https://allenai.org/data/arc): QMC→AE, AQC→M, CQME→A, QME→A, QE→A, QMC→A, QC→AE, QM→AE, QMAC→E, QMA→E
-       * [ARC-DA](https://allenai.org/data/arc-da): QC→AE, Q→AE, QC→A, Q→A, CQE→A, QE→A, AE→Q, AC→Q, QA→E, AQC→E
+       * [ARC](https://allenai.org/data/arc): QMC→AE, AQC→M, QMEC→A, QME→A, QE→A, QMC→A, QC→AE, QM→AE, QMAC→E, QMA→E
+       * [ARC-DA](https://allenai.org/data/arc-da): QC→AE, Q→AE, QC→A, Q→A, QEC→A, QE→A, AE→Q, AC→Q, QA→E, AQC→E
+       
+   3. A specialized answer-focused model, <b>macaw-answer-11b</b> (called "UnifiedQA + ARC MC/DA + IR" on the 
+   leaderboards for [ARC](https://leaderboard.allenai.org/arc/submissions/public), 
+   [ARC-Easy](https://leaderboard.allenai.org/arc_easy/submissions/public), and 
+   [ARC-DA](https://leaderboard.allenai.org/genie-arcda/submissions/public))
+   was trained on a smaller set of angles, not including explanations:
+       * ARC: QMC→A, QAC→M, QC→A, QM→A, MAC→Q, AC→QM, M→QA
+       * ARC-DA: QC→A, Q→A, AC→Q, C→QA
+       
    
 ## Available models
 
@@ -105,16 +114,18 @@ Macaw models in three different sizes can be accessed from the Hugging Face mode
    * [macaw-11b](https://huggingface.co/allenai/macaw-11b)  (11 billion parameters)
    * [macaw-3b](https://huggingface.co/allenai/macaw-3b)  (3 billion parameters)
    * [macaw-large](https://huggingface.co/allenai/macaw-large)  (770 million parameters)
+   * [macaw-answer-11b](https://huggingface.co/allenai/macaw-answer-11b)  (11 billion parameters)
 
 For a sense of the degradation in performance for the smaller sizes, here are baseline scores on the ARC Challenge and 
-ARC Easy multiple-choice development questions. Included are variants with and without IR context from a large science 
-corpus (corresponding to angles QMC->A and QM->A respectively).
+ARC Easy multiple-choice <b>development</b> questions. Included are variants with and without IR context from a large science 
+corpus (corresponding to angles QMC→A and QM→A respectively).
 
 |Model | ARC Challenge | ARC Challenge (no IR) | ARC Easy | ARC Easy (no IR)|
 |---|---|---|---|---|
 |Macaw (11B) | 76.9 | 74.6 | 91.2 | 84.9|
 |Macaw-3B | 68.2 | 67.9 | 87.9 |  77.7|
 |Macaw-large | 57.2 | 50.5 | 82.5 | 63.9|
+|Macaw-answer (11B) | 79.9 | 75.2 | 90.5 | 85.8|
 
 ## Disclaimer
 
