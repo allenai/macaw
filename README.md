@@ -51,6 +51,10 @@ Some suggestive examples from the Macaw (11B) model, for different angles:
 
   * (Q→A) Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
   → A: rocks
+  
+  * (QM→A) Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
+           M: (A) a leaf (B) a log (C) a worm <br>
+  → A: a log
 
   * (Q→A) Q: If plastic was an insulator, then would a plastic spoon conduct electricity? <br>
   → A: no
