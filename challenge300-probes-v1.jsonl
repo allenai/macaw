@@ -1,300 +1,300 @@
-{"id":"macaw-probes-v1-1","question":"If I put some cheese in the fridge, will it melt?","category":"commonsense"}
-{"id":"macaw-probes-v1-2","question":"How could one divert an asteroid heading directly for the Earth?","category":"commonsense"}
-{"id":"macaw-probes-v1-3","question":"How can I build a tent if I only have a tarpaulin, a tent peg, and a piece of rope?","category":"commonsense"}
-{"id":"macaw-probes-v1-4","question":"How can I make a tent using a tarpaulin, a tent peg, and a piece of rope?","category":"commonsense"}
-{"id":"macaw-probes-v1-5","question":"I would like to go running, but my ankle is injured. What should I do?","category":"commonsense"}
-{"id":"macaw-probes-v1-6","question":"If I went hiking for the day, how much water should I bring with me?","category":"commonsense"}
-{"id":"macaw-probes-v1-7","question":"The judge killed the suspect. Who did the police arrest?","category":"commonsense"}
-{"id":"macaw-probes-v1-8","question":"The suspect killed the judge. Who did the police arrest?","category":"commonsense"}
-{"id":"macaw-probes-v1-9","question":"The man killed the murderer. Who did the police arrest?","category":"commonsense"}
-{"id":"macaw-probes-v1-10","question":"The murderer killed the man. Who did the police arrest?","category":"commonsense"}
-{"id":"macaw-probes-v1-11","question":"The dax killed the murderer. Who did the police arrest?","category":"commonsense"}
-{"id":"macaw-probes-v1-12","question":"What happens if I drop a  glass on a bed of feathers?","category":"commonsense"}
-{"id":"macaw-probes-v1-13","question":"What is made of metal?","category":"commonsense"}
-{"id":"macaw-probes-v1-14","question":"What is made of metal, besides a car?","category":"commonsense"}
-{"id":"macaw-probes-v1-15","question":"What is made of metal, besides a car and a door?","category":"commonsense"}
-{"id":"macaw-probes-v1-16","question":"What is made of metal, besides a car, a door, and a bicycle?","category":"commonsense"}
-{"id":"macaw-probes-v1-17","question":"You are a defense lawyer and you have to go to court today. Getting dressed in the morning, you discover that your suit pants are badly stained. However, your bathing suit is clean and very stylish. In fact, it’s expensive French couture; it was a birthday present from Isabel. You decide that you should wear what?","category":"commonsense"}
-{"id":"macaw-probes-v1-18","question":"You poured yourself a glass of cranberry juice, but then absentmindedly, you poured about a teaspoon of grape juice into it. It looks OK. You try sniffing it, but you have a bad cold, so you can’t smell anything. You are very thirsty. So you drink it. What happens next?","category":"commonsense"}
-{"id":"macaw-probes-v1-19","question":"If you break a glass bottle that holds toy soldiers, the toy soldiers will probably what?","category":"commonsense"}
-{"id":"macaw-probes-v1-20","question":"You order a bowl of cold tomato soup in a restaurant. It looks delicious, but they forgot to bring you a spoon. You try to drink it using your eyeglasses. What happens?","category":"commonsense"}
-{"id":"macaw-probes-v1-21","question":"Can I cut a potato with a knife?","category":"commonsense"}
-{"id":"macaw-probes-v1-22","question":"Can I cut a steel beam with a knife?","category":"commonsense"}
-{"id":"macaw-probes-v1-23","question":"Can I cut a brick with a knife?","category":"commonsense"}
-{"id":"macaw-probes-v1-24","question":"What can't I cut with a knife?","category":"commonsense"}
-{"id":"macaw-probes-v1-25","question":"Can I cut a bone with a knife?","category":"commonsense"}
-{"id":"macaw-probes-v1-26","question":"Does a coral snake have legs?","category":"commonsense"}
-{"id":"macaw-probes-v1-27","question":"Does a king cobra have legs?","category":"commonsense"}
-{"id":"macaw-probes-v1-28","question":"Do snakes have legs?","category":"commonsense"}
-{"id":"macaw-probes-v1-29","question":"How does a snake move around?","category":"commonsense"}
-{"id":"macaw-probes-v1-30","question":"Can you sit and stand at the same time?","category":"commonsense"}
-{"id":"macaw-probes-v1-31","question":"Can you walk and run at the same time?","category":"commonsense"}
-{"id":"macaw-probes-v1-32","question":"Joe is sitting. Can Joe now stand while remaining seated?","category":"commonsense"}
-{"id":"macaw-probes-v1-33","question":"Joe is walking. Can Joe now run while still walking?","category":"commonsense"}
-{"id":"macaw-probes-v1-34","question":"Malcolm Harrison was a farmer in Virginia who died more than 200 years ago. He had a dozen horses on his farm. How many horses will still be alive today?","category":"commonsense"}
-{"id":"macaw-probes-v1-35","question":"Mary owns a canary named Paul. Did Paul has any ancestors who were alive in the year 1750?","category":"commonsense"}
-{"id":"macaw-probes-v1-36","question":"Can a female eagle and a male alligator have a baby together?","category":"commonsense"}
-{"id":"macaw-probes-v1-37","question":"When Ed was born, his father was in Boston and his mother was in Los Angeles. Where was Ed born?","category":"commonsense"}
-{"id":"macaw-probes-v1-38","question":"If a person cuts off one of his fingers, then can the person grow a new finger?","category":"commonsense"}
-{"id":"macaw-probes-v1-39","question":"How do pandas and parrots differ?","category":"comparison"}
-{"id":"macaw-probes-v1-40","question":"What is the difference between a noun and a verb?","category":"comparison"}
-{"id":"macaw-probes-v1-41","question":"James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use?","category":"entity substitution"}
-{"id":"macaw-probes-v1-42","question":"How would you remove ice from the car window without an ice scraper?","category":"entity substitution"}
-{"id":"macaw-probes-v1-43","question":"How would you bang in tent pegs without a hammer?","category":"entity substitution"}
-{"id":"macaw-probes-v1-44","question":"Mary wanted to heat up some water, but her stove was broken. What else might she use instead to heat the water?","category":"entity substitution"}
-{"id":"macaw-probes-v1-45","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the coin at the start?","category":"entity tracking"}
-{"id":"macaw-probes-v1-46","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the coin at the end?","category":"entity tracking"}
-{"id":"macaw-probes-v1-47","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the bag at the end?","category":"entity tracking"}
-{"id":"macaw-probes-v1-48","question":"Imagine an empty cup. Now put a coin in the cup. Now put another coin in the cup. Now put a pen in the cup. How many coins are in the cup now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-49","question":"Imagine an empty cup. Now put a coin in the cup. Now take the coin out of the cup. How many coins are in the cup now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-50","question":"My house is red. I painted my house white. What color is my house now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-51","question":"My house is blue. I painted my house red. What color was my house before I painted it?","category":"entity tracking"}
-{"id":"macaw-probes-v1-52","question":"My house is red. My neighbor's house is blue. I painted my house white. What color is my house now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-53","question":"My house is red. I painted my neighbor's house white. What color is my house now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-54","question":"I bought a ticket to Hawaii. Where is the ticket now?","category":"entity tracking"}
-{"id":"macaw-probes-v1-55","question":"I bought a ticket to Hawaii. Where was the ticket before?","category":"entity tracking"}
-{"id":"macaw-probes-v1-56","question":"I bought a ticket to Hawaii from a local travel agent. Where was the ticket before?","category":"entity tracking"}
-{"id":"macaw-probes-v1-57","question":"Amy, Betty, Charlie, David, Ezra, Flip, and George go to a party; Betty and Charlie got bored; Ezra and Flip go out to get beer. The only people left are who?","category":"entity tracking"}
-{"id":"macaw-probes-v1-58","question":"How many banknotes can you fit in a school bus?","category":"estimation"}
-{"id":"macaw-probes-v1-59","question":"How many banknotes can you fit in a wallet?","category":"estimation"}
-{"id":"macaw-probes-v1-60","question":"How many banknotes can you fit in a thimble?","category":"estimation"}
-{"id":"macaw-probes-v1-61","question":"How many truckloads of earth does Mount Everest contain?","category":"estimation"}
-{"id":"macaw-probes-v1-62","question":"If an observer is moving, then the entities he\/she is observing will appear to move from his\/her perspective. What is an example of this phenomenon?","category":"example generation"}
-{"id":"macaw-probes-v1-63","question":"If you let go of an object, then gravity pulls it to the ground. What is an example of this phenomenon?","category":"example generation"}
-{"id":"macaw-probes-v1-64","question":"James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. Why might a rock be a useful substitute for the hammer?","category":"explanation"}
-{"id":"macaw-probes-v1-65","question":"If I went hiking for the day, why is 2 liters of water the right amount to bring with me?","category":"explanation"}
-{"id":"macaw-probes-v1-66","question":"My design for a spaceship uses as little fuel as possible. Why is this a good design?","category":"explanation"}
-{"id":"macaw-probes-v1-67","question":"Why does sanding remove the shine from polished granite?","category":"explanation"}
-{"id":"macaw-probes-v1-68","question":"Why does gravity cause a ball to roll downhill?","category":"explanation"}
-{"id":"macaw-probes-v1-69","question":"Why do houses have roofs?","category":"explanation"}
-{"id":"macaw-probes-v1-70","question":"Why do houses have walls?","category":"explanation"}
-{"id":"macaw-probes-v1-71","question":"Why do houses have windows?","category":"explanation"}
-{"id":"macaw-probes-v1-72","question":"Why do houses have doors?","category":"explanation"}
-{"id":"macaw-probes-v1-73","question":"Why does ice float?","category":"explanation"}
-{"id":"macaw-probes-v1-74","question":"Why does ice sink?","category":"explanation"}
-{"id":"macaw-probes-v1-75","question":"Why does it rain a lot in Seattle?","category":"explanation"}
-{"id":"macaw-probes-v1-76","question":"Why is Seattle wet?","category":"explanation"}
-{"id":"macaw-probes-v1-77","question":"Why is a tally sheet useful to help count things?","category":"explanation"}
-{"id":"macaw-probes-v1-78","question":"What year did Tom Hanks land on the moon?","category":"false presupposition"}
-{"id":"macaw-probes-v1-79","question":"How old was Mark Zuckerberg when he founded Google?","category":"false presupposition"}
-{"id":"macaw-probes-v1-80","question":"How old was Mark Zuckerberg when he founded Amazon?","category":"false presupposition"}
-{"id":"macaw-probes-v1-81","question":"How old was Kermit the Frog when he founded Amazon?","category":"false presupposition"}
-{"id":"macaw-probes-v1-82","question":"How old was foo when she founded baz?","category":"false presupposition"}
-{"id":"macaw-probes-v1-83","question":"How can you sit and stand at the same time?","category":"false presupposition"}
-{"id":"macaw-probes-v1-84","question":"How can you walk and run at the same time?","category":"false presupposition"}
-{"id":"macaw-probes-v1-85","question":"Joe is walking. How can Joe now run while still walking?","category":"false presupposition"}
-{"id":"macaw-probes-v1-86","question":"Sally’s favorite cow died yesterday. When will the cow be alive again?","category":"false presupposition"}
-{"id":"macaw-probes-v1-87","question":"Susie wants to make an omelette. What ingredients will she need?","category":"general knowledge"}
-{"id":"macaw-probes-v1-88","question":"Why are eggs needed for an omelette?","category":"general knowledge"}
-{"id":"macaw-probes-v1-89","question":"Why is milk needed for an omelette?","category":"general knowledge"}
-{"id":"macaw-probes-v1-90","question":"Why is butter needed for an omelette?","category":"general knowledge"}
-{"id":"macaw-probes-v1-91","question":"Which kind of grass is best to grow in shady areas?","category":"general knowledge"}
-{"id":"macaw-probes-v1-92","question":"What is shiplap?","category":"general knowledge"}
-{"id":"macaw-probes-v1-93","question":"What does the idiom \"kick the tires\" mean?","category":"general knowledge"}
-{"id":"macaw-probes-v1-94","question":"What is the role of the spark plug in a combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-95","question":"What are the parts in a car engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-96","question":"What is the role of the piston in a car engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-97","question":"What is the role of a carburetor in a car engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-98","question":"What is the role of the valves in a car engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-99","question":"What is the path of the gas through a car engine as it operates?","category":"general knowledge"}
-{"id":"macaw-probes-v1-100","question":"Is it dangerous to inhale smoke from wildfires?","category":"general knowledge"}
-{"id":"macaw-probes-v1-101","question":"Why are toxic gases bad for you?","category":"general knowledge"}
-{"id":"macaw-probes-v1-102","question":"What is a tally sheet useful for?","category":"general knowledge"}
-{"id":"macaw-probes-v1-103","question":"In what situation might a person have broken their arm?","category":"general knowledge"}
-{"id":"macaw-probes-v1-104","question":"What objects might be involved in a car crash?","category":"general knowledge"}
-{"id":"macaw-probes-v1-105","question":"How would a tree be involved in a car crash?","category":"general knowledge"}
-{"id":"macaw-probes-v1-106","question":"How might a telephone pole be involved in a car crash?","category":"general knowledge"}
-{"id":"macaw-probes-v1-107","question":"Why might a car hit a telephone pole?","category":"general knowledge"}
-{"id":"macaw-probes-v1-108","question":"What might cause a car to hit a telephone pole?","category":"general knowledge"}
-{"id":"macaw-probes-v1-109","question":"Why might a car driver be drunk?","category":"general knowledge"}
-{"id":"macaw-probes-v1-110","question":"How might making poor decisions result in a car crash?","category":"general knowledge"}
-{"id":"macaw-probes-v1-111","question":"Why does speeding cause car accidents?","category":"general knowledge"}
-{"id":"macaw-probes-v1-112","question":"How might speeding cause a car accident?","category":"general knowledge"}
-{"id":"macaw-probes-v1-113","question":"What is involved in driving?","category":"general knowledge"}
-{"id":"macaw-probes-v1-114","question":"What does driving a car involve?","category":"general knowledge"}
-{"id":"macaw-probes-v1-115","question":"What is the purpose of driving a car?","category":"general knowledge"}
-{"id":"macaw-probes-v1-116","question":"How many years will it take to build truly intelligent machines?","category":"general knowledge"}
-{"id":"macaw-probes-v1-117","question":"Why will it take hundreds of years to build truly intelligent machines?","category":"general knowledge"}
-{"id":"macaw-probes-v1-118","question":"Why are truly intelligent machines very complex?","category":"general knowledge"}
-{"id":"macaw-probes-v1-119","question":"John is counting sheep. What equipment might be useful for John?","category":"general knowledge"}
-{"id":"macaw-probes-v1-120","question":"What would be a good design for a spaceship?","category":"general knowledge"}
-{"id":"macaw-probes-v1-121","question":"How do you remove the shine from polished granite?","category":"general knowledge"}
-{"id":"macaw-probes-v1-122","question":"How does an internal combustion engine work?","category":"general knowledge"}
-{"id":"macaw-probes-v1-123","question":"How does an internal combustion engine convert fuel into kinetic energy and heat and cooled exhaust gas?","category":"general knowledge"}
-{"id":"macaw-probes-v1-124","question":"What are the parts of an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-125","question":"What is the purpose of the piston in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-126","question":"What is the purpose of the cylinder in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-127","question":"What is the purpose of the valves in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-128","question":"What is the purpose of the head in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-129","question":"What is the piston in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-130","question":"What is the cylinder in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-131","question":"What is the valve in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-132","question":"What is the head in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-133","question":"In an internal combustion engine, what does the piston do?","category":"general knowledge"}
-{"id":"macaw-probes-v1-134","question":"What does the piston do in an internal combustion engine?","category":"general knowledge"}
-{"id":"macaw-probes-v1-135","question":"What are the parts of a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-136","question":"What does the roof do in a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-137","question":"What is the purpose of a roof in a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-138","question":"What is the purpose of the walls in a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-139","question":"What is the purpose of the windows in a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-140","question":"What is the purpose of the doors in a house?","category":"general knowledge"}
-{"id":"macaw-probes-v1-141","question":"Name an object that is attracted by a magnet.","category":"general knowledge"}
-{"id":"macaw-probes-v1-142","question":"Name an object other than a nail that is attracted by a magnet.","category":"general knowledge"}
-{"id":"macaw-probes-v1-143","question":"Name an object other than a nail or a paper clip that is attracted by a magnet.","category":"general knowledge"}
-{"id":"macaw-probes-v1-144","question":"Why was Aristotle's hometown more similar to California than New York?","category":"general knowledge"}
-{"id":"macaw-probes-v1-145","question":"Why would Aristotle have preferred a short-sleeved shirt over a warm jacket?","category":"general knowledge"}
-{"id":"macaw-probes-v1-146","question":"How would you make a table stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-147","question":"How would you make a rope stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-148","question":"How would you make a blanket stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-149","question":"How would you make a marriage stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-150","question":"How would you make an investment stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-151","question":"How would you mkae a balloon stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-152","question":"How would you make a road stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-153","question":"How would you make a window stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-154","question":"How would you make a contract stronger?","category":"general knowledge"}
-{"id":"macaw-probes-v1-155","question":"What does colorless mean?","category":"general knowledge"}
-{"id":"macaw-probes-v1-156","question":"Does oxygen have a hue?","category":"general knowledge"}
-{"id":"macaw-probes-v1-157","question":"Tell me a story about a car accident.","category":"generation"}
-{"id":"macaw-probes-v1-158","question":"What were the causes of World War II?","category":"history"}
-{"id":"macaw-probes-v1-159","question":"What were the main problems with the League of Nations, formed in 1920?","category":"history"}
-{"id":"macaw-probes-v1-160","question":"How should I break up with my girlfriend?","category":"human behavior"}
-{"id":"macaw-probes-v1-161","question":"I feel sad. What could I do to cheer myself up?","category":"human behavior"}
-{"id":"macaw-probes-v1-162","question":"Why is it hard to find good building contractors?","category":"human behavior"}
-{"id":"macaw-probes-v1-163","question":"Almanzo turned to Mr. Thompson and asked, \"Did you lose a pocketbook?\" Mr. Thompson jumped. He slapped a hand to his pocket and fairly shouted, \"Yes, I have! Fifteen hundred dollars in it, too!\". What did Mr. Thompson say next?","category":"human behavior"}
-{"id":"macaw-probes-v1-164","question":"Almanzo turned to Mr. Thompson and asked, \"Did you lose a pocketbook?\" Mr. Thompson jumped. He slapped a hand to his pocket and fairly shouted, \"Yes, I have! Fifteen hundred dollars in it, too!\".  What did Almanzo say in reply?","category":"human behavior"}
-{"id":"macaw-probes-v1-165","question":"If plastic was a conductor, then would a plastic spoon conduct electricity?","category":"hypothetical"}
-{"id":"macaw-probes-v1-166","question":"If plastic was an insulator, then would a plastic spoon conduct electricity?","category":"hypothetical"}
-{"id":"macaw-probes-v1-167","question":"If dinosaurs were alive today, how would the world be different?","category":"hypothetical"}
-{"id":"macaw-probes-v1-168","question":"If an asteroid was heading directly for the Earth, what steps could we take to avert catastrophe?","category":"hypothetical"}
-{"id":"macaw-probes-v1-169","question":"If you put a plant in a dark room, how will its photosynthesis be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-170","question":"If a bird didn't have wings, how would it be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-171","question":"If a car did not have any gas in it, how would it be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-172","question":"If an electric car did not have any gas in it, how would it be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-173","question":"If a bird did not have wings, would it be able to eat?","category":"hypothetical"}
-{"id":"macaw-probes-v1-174","question":"If there was no sun, how would life be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-175","question":"If my house did not have a roof, and it rained, what would happen to my bed upstairs?","category":"hypothetical"}
-{"id":"macaw-probes-v1-176","question":"If my house had a roof, and it rained, what would happen to my bed upstairs?","category":"hypothetical"}
-{"id":"macaw-probes-v1-177","question":"If my house did not have a roof, and it rained, what would happen to my bed downstairs?","category":"hypothetical"}
-{"id":"macaw-probes-v1-178","question":"If an airplane runs out of fuel on the runway, what would happen?","category":"hypothetical"}
-{"id":"macaw-probes-v1-179","question":"If a stationary airplane runs out of fuel, what would happen?","category":"hypothetical"}
-{"id":"macaw-probes-v1-180","question":"If a stationary airplane on the ground runs out of fuel, what would happen?","category":"hypothetical"}
-{"id":"macaw-probes-v1-181","question":"If a car's battery is flat, how would the car be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-182","question":"If a person had an infinite short-term memory, why wouldn't they need a tally sheet to count things?","category":"hypothetical"}
-{"id":"macaw-probes-v1-183","question":"A plant is in a dark room. Will it be able to photosynthesize?","category":"hypothetical"}
-{"id":"macaw-probes-v1-184","question":"A plant is in a dark room. Will it still grow?","category":"hypothetical"}
-{"id":"macaw-probes-v1-185","question":"If a plant had no leaves, could it photosynthesize?","category":"hypothetical"}
-{"id":"macaw-probes-v1-186","question":"If you pulled the leaves off a plant, how would it be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-187","question":"If the leaves were pulled off a plant, the plant would not be able to do what?","category":"hypothetical"}
-{"id":"macaw-probes-v1-188","question":"There is a windstorm in the city. How might houses in the city be affected?","category":"hypothetical"}
-{"id":"macaw-probes-v1-189","question":"There is a windstorm in the city. Why might the roofs of houses be blown off?","category":"hypothetical"}
-{"id":"macaw-probes-v1-190","question":"How would you make a house conduct electricity?","category":"hypothetical"}
-{"id":"macaw-probes-v1-191","question":"If a gas was colored blue, what would this imply?","category":"hypothetical"}
-{"id":"macaw-probes-v1-192","question":"If oxygen were blue, what would happen?","category":"hypothetical"}
-{"id":"macaw-probes-v1-193","question":"If oxygen were blue, what would be a result?","category":"hypothetical"}
-{"id":"macaw-probes-v1-194","question":"What is 56 + 49?","category":"math"}
-{"id":"macaw-probes-v1-195","question":"What is 241 + 7864?","category":"math"}
-{"id":"macaw-probes-v1-196","question":"What is an implication of a cat being an animal?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-197","question":"What is an incorrect implication of a cat being an animal?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-198","question":"What is an implication of something being colorless?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-199","question":"What is an implication of something being blue?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-200","question":"What is an implication of something being green?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-201","question":"What is an implication of something being colored green?","category":"meta-reasoning"}
-{"id":"macaw-probes-v1-202","question":"A young boy was rushed to the hospital emergency room, but the ER doctor saw the boy and refused to operate. \"This boy is my son,\" the doctor said. But the doctor wasn't the boy's father. How could this be?","category":"riddle"}
-{"id":"macaw-probes-v1-203","question":"A truck driver is going down a one-way street the wrong way and passes at least ten cops. Why is he not caught?","category":"riddle"}
-{"id":"macaw-probes-v1-204","question":"What is the difference between ELMO and BERT?","category":"science"}
-{"id":"macaw-probes-v1-205","question":"Which research organization invented the ELMO language model?","category":"science"}
-{"id":"macaw-probes-v1-206","question":"Is it possible to travel faster than light?","category":"science"}
-{"id":"macaw-probes-v1-207","question":"What is the most important advantage of quantum computing?","category":"science"}
-{"id":"macaw-probes-v1-208","question":"What is COVID-19?","category":"science"}
-{"id":"macaw-probes-v1-209","question":"What makes eggplant purple?","category":"science"}
-{"id":"macaw-probes-v1-210","question":"What causes blossom-end rot?","category":"science"}
-{"id":"macaw-probes-v1-211","question":"How can I find Orion's Belt in the night sky?","category":"science"}
-{"id":"macaw-probes-v1-212","question":"What causes fermentation?","category":"science"}
-{"id":"macaw-probes-v1-213","question":"A student perfoms an experiment growing two plants. One plant is placed in a dark room and the other plant is placed near a window. The plant near the window grows faster than the plant in the dark.  What does this experiment suggest?","category":"science"}
-{"id":"macaw-probes-v1-214","question":"A student performs an experiment growing two plants. One plant is placed in a dark room and the other plant is placed near a window. The plant near the window grows slower than the plant in the dark. What does this experiment suggest?","category":"science"}
-{"id":"macaw-probes-v1-215","question":"An experiment is performed with a sealed container. The container starts out with a temperature of 70 degrees F and an air pressure of 20 psi. The container is heated, and the pressure inside the container rises evenly with increased temperature. If the container is cooled back to 70 degrees F, what will the air pressure be?","category":"science"}
-{"id":"macaw-probes-v1-216","question":"What gases are involved in photosynthesis?","category":"science"}
-{"id":"macaw-probes-v1-217","question":"What is the role of hydrogen peroxide in photosynthesis?","category":"science"}
-{"id":"macaw-probes-v1-218","question":"What are the products of photosynthesis?","category":"science"}
-{"id":"macaw-probes-v1-219","question":"Why is the sky blue?","category":"science"}
-{"id":"macaw-probes-v1-220","question":"Why does the sky reflect blue light?","category":"science"}
-{"id":"macaw-probes-v1-221","question":"Why do plants produce sugar?","category":"science"}
-{"id":"macaw-probes-v1-222","question":"Why do plants need energy?","category":"science"}
-{"id":"macaw-probes-v1-223","question":"Why does it get colder at higher altitudes?","category":"science"}
-{"id":"macaw-probes-v1-224","question":"How does photosynthesis work?","category":"science"}
-{"id":"macaw-probes-v1-225","question":"What are the inputs for photosynthesis?","category":"science"}
-{"id":"macaw-probes-v1-226","question":"List the inputs of photosynthesis.","category":"science"}
-{"id":"macaw-probes-v1-227","question":"What are the outputs of photosynthesis?","category":"science"}
-{"id":"macaw-probes-v1-228","question":"List the outputs of photosynthesis.","category":"science"}
-{"id":"macaw-probes-v1-229","question":"Where does photosynthesis occur?","category":"science"}
-{"id":"macaw-probes-v1-230","question":"In what part of a plant does photosynthesis occur?","category":"science"}
-{"id":"macaw-probes-v1-231","question":"List all the gases involved in photosynthesis.","category":"science"}
-{"id":"macaw-probes-v1-232","question":"What force causes a ball to roll downhill?","category":"science"}
-{"id":"macaw-probes-v1-233","question":"How does a volcanic eruption interfere with the ability of producers to obtain the energy they need to produce food?","category":"science"}
-{"id":"macaw-probes-v1-234","question":"How does a volcanic eruption result in reduced sunlight?","category":"science"}
-{"id":"macaw-probes-v1-235","question":"Why does a reduction in sunlight cause produces to receive less energy than they need to produce food?","category":"science"}
-{"id":"macaw-probes-v1-236","question":"List all the birds.","category":"science"}
-{"id":"macaw-probes-v1-237","question":"List all the animals.","category":"science"}
-{"id":"macaw-probes-v1-238","question":"List all the mammals.","category":"science"}
-{"id":"macaw-probes-v1-239","question":"List all the snakes.","category":"science"}
-{"id":"macaw-probes-v1-240","question":"How many legs does a snake have?","category":"science"}
-{"id":"macaw-probes-v1-241","question":"Is oxygen transparent?","category":"science"}
-{"id":"macaw-probes-v1-242","question":"Does oxygen reflect blue light?","category":"science"}
-{"id":"macaw-probes-v1-243","question":"Does oxygen contain a lot of hydrogen?","category":"science"}
-{"id":"macaw-probes-v1-244","question":"You blow up a toy balloon, and tie the end shut. What is the air pressure in the balloon, relative to outside?","category":"science"}
-{"id":"macaw-probes-v1-245","question":"Where is the roof relative to the walls and floors in a house?","category":"spatial"}
-{"id":"macaw-probes-v1-246","question":"Where are the walls relative to the roof and floors in a house?","category":"spatial"}
-{"id":"macaw-probes-v1-247","question":"Where is the floor relative to the roof and walls in a house?","category":"spatial"}
-{"id":"macaw-probes-v1-248","question":"Why was it easier for Aristotle to travel to Egypt than Eastern Asia?","category":"spatial"}
-{"id":"macaw-probes-v1-249","question":"How can I reach a high window in my kitchen?","category":"spatial"}
-{"id":"macaw-probes-v1-250","question":"You want to mail a beautiful eight-inch diameter circular piece of fabric to your mother. The only box you have is five-by-five-by-two inches. You will have to do what?","category":"spatial"}
-{"id":"macaw-probes-v1-251","question":"The year is 2075. Violet Blair is an astronaut on the Moon, in the Sea of Tranquility. Right now, on Earth, there is a solar eclipse. Violet looks in the direction of the Earth and sees what?","category":"spatial"}
-{"id":"macaw-probes-v1-252","question":"John is left of Sue. Where is Sue relative to John?","category":"spatial"}
-{"id":"macaw-probes-v1-253","question":"John is left of Sue. Sue is left of Mike. Where is Mike relative to John?","category":"spatial"}
-{"id":"macaw-probes-v1-254","question":"John is left of Sue. Sue is left of Mike. Where is Sue relative to John?","category":"spatial"}
-{"id":"macaw-probes-v1-255","question":"If you brought a canary and an alligator together to the same place, could the canary could see what is inside the alligator’s stomach?","category":"spatial"}
-{"id":"macaw-probes-v1-256","question":"What are the steps involved in replacing a light bulb?","category":"steps"}
-{"id":"macaw-probes-v1-257","question":"How do I make a loaf of bread?","category":"steps"}
-{"id":"macaw-probes-v1-258","question":"What are the steps involved in making a loaf of bread?","category":"steps"}
-{"id":"macaw-probes-v1-259","question":"What are the four steps in making bread?","category":"steps"}
-{"id":"macaw-probes-v1-260","question":"What are the steps involved in counting cars that pass a school each day?","category":"steps"}
-{"id":"macaw-probes-v1-261","question":"If you want to drive a car, what do you do first?","category":"steps"}
-{"id":"macaw-probes-v1-262","question":"In an internal combustion engine, what happens after the air is compressed in the cylinder?","category":"steps"}
-{"id":"macaw-probes-v1-263","question":"In an internal combustion engine, what happens after the air is heated?","category":"steps"}
-{"id":"macaw-probes-v1-264","question":"Some kids are planning a rollerskating race. What happens next?","category":"steps"}
-{"id":"macaw-probes-v1-265","question":"Some kids are planning a rollerskating race. They practice. What happens next?","category":"steps"}
-{"id":"macaw-probes-v1-266","question":"List all the steps in planning a vacation.","category":"steps"}
-{"id":"macaw-probes-v1-267","question":"List all the steps in going to the zoo.","category":"steps"}
-{"id":"macaw-probes-v1-268","question":"List all the steps in making a cake.","category":"steps"}
-{"id":"macaw-probes-v1-269","question":"List all the steps in repairing a flat tire.","category":"steps"}
-{"id":"macaw-probes-v1-270","question":"List all the steps in planning a wedding.","category":"steps"}
-{"id":"macaw-probes-v1-271","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why did I call a taxi?","category":"story understanding"}
-{"id":"macaw-probes-v1-272","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why couldn't I drive home?","category":"story understanding"}
-{"id":"macaw-probes-v1-273","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why was I in hospital?","category":"story understanding"}
-{"id":"macaw-probes-v1-274","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. How did I get my injuries?","category":"story understanding"}
-{"id":"macaw-probes-v1-275","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. What was a result of the crash?","category":"story understanding"}
-{"id":"macaw-probes-v1-276","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Was I hurt in the crash?","category":"story understanding"}
-{"id":"macaw-probes-v1-277","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why did I go to the hospital?","category":"story understanding"}
-{"id":"macaw-probes-v1-278","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. When did I leave the hospital?","category":"story understanding"}
-{"id":"macaw-probes-v1-279","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why was Josh grounded?","category":"story understanding"}
-{"id":"macaw-probes-v1-280","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the teacher tell Joshua not to bring his bird again?","category":"story understanding"}
-{"id":"macaw-probes-v1-281","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What bad word might the parrot have said?","category":"story understanding"}
-{"id":"macaw-probes-v1-282","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did Josh bring the parrot to school?","category":"story understanding"}
-{"id":"macaw-probes-v1-283","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh feel?","category":"story understanding"}
-{"id":"macaw-probes-v1-284","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What was Josh doing during show and tell?","category":"story understanding"}
-{"id":"macaw-probes-v1-285","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did the teacher feel?","category":"story understanding"}
-{"id":"macaw-probes-v1-286","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh's parents feel?","category":"story understanding"}
-{"id":"macaw-probes-v1-287","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the parrot saying a bad word make the teacher mad?","category":"story understanding"}
-{"id":"macaw-probes-v1-288","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the parrot saying a bad word make Josh's parents mad?","category":"story understanding"}
-{"id":"macaw-probes-v1-289","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What happens during show and tell?","category":"story understanding"}
-{"id":"macaw-probes-v1-290","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did the teacher feel before show and tell?","category":"story understanding"}
-{"id":"macaw-probes-v1-291","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What did the other children in Josh's class think of the parrot?","category":"story understanding"}
-{"id":"macaw-probes-v1-292","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Did the other children in Josh's class mind that the parrot had said a bad word?","category":"story understanding"}
-{"id":"macaw-probes-v1-293","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh's parents find out about the parrot saying a bad word?","category":"story understanding"}
-{"id":"macaw-probes-v1-294","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Who grounded Josh?","category":"story understanding"}
-{"id":"macaw-probes-v1-295","question":"Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily.  The show was absolutely exhilarating. What happened that might cause Karen to become good friends with her roommate?","category":"story understanding"}
-{"id":"macaw-probes-v1-296","question":"Why were Neanderthals unable to own Aristotle's books?","category":"temporal"}
-{"id":"macaw-probes-v1-297","question":"Moshe posted on Facebook a photograph showing Maurice Ravel, Francois Poulenc, Frederic Mompou, and Erik Satie. Satie died in 1925. Poulenc was born in 1899. So the photograph must  have been taken when?","category":"temporal"}
-{"id":"macaw-probes-v1-298","question":"The trophy couldn't fit into the box because it was too big. What was too big?","category":"Winograd"}
-{"id":"macaw-probes-v1-299","question":"The elephant couldn't fit into the box because it was too big. What was too big?","category":"Winograd"}
-{"id":"macaw-probes-v1-300","question":"A man is watching television. The elephant couldn't fit in the box because it was too big. What was too big?","category":"Winograd"}
+{"id":"challenge300-probes-v1-1","question":"If I put some cheese in the fridge, will it melt?","category":"commonsense"}
+{"id":"challenge300-probes-v1-2","question":"How could one divert an asteroid heading directly for the Earth?","category":"commonsense"}
+{"id":"challenge300-probes-v1-3","question":"How can I build a tent if I only have a tarpaulin, a tent peg, and a piece of rope?","category":"commonsense"}
+{"id":"challenge300-probes-v1-4","question":"How can I make a tent using a tarpaulin, a tent peg, and a piece of rope?","category":"commonsense"}
+{"id":"challenge300-probes-v1-5","question":"I would like to go running, but my ankle is injured. What should I do?","category":"commonsense"}
+{"id":"challenge300-probes-v1-6","question":"If I went hiking for the day, how much water should I bring with me?","category":"commonsense"}
+{"id":"challenge300-probes-v1-7","question":"The judge killed the suspect. Who did the police arrest?","category":"commonsense"}
+{"id":"challenge300-probes-v1-8","question":"The suspect killed the judge. Who did the police arrest?","category":"commonsense"}
+{"id":"challenge300-probes-v1-9","question":"The man killed the murderer. Who did the police arrest?","category":"commonsense"}
+{"id":"challenge300-probes-v1-10","question":"The murderer killed the man. Who did the police arrest?","category":"commonsense"}
+{"id":"challenge300-probes-v1-11","question":"The dax killed the murderer. Who did the police arrest?","category":"commonsense"}
+{"id":"challenge300-probes-v1-12","question":"What happens if I drop a  glass on a bed of feathers?","category":"commonsense"}
+{"id":"challenge300-probes-v1-13","question":"What is made of metal?","category":"commonsense"}
+{"id":"challenge300-probes-v1-14","question":"What is made of metal, besides a car?","category":"commonsense"}
+{"id":"challenge300-probes-v1-15","question":"What is made of metal, besides a car and a door?","category":"commonsense"}
+{"id":"challenge300-probes-v1-16","question":"What is made of metal, besides a car, a door, and a bicycle?","category":"commonsense"}
+{"id":"challenge300-probes-v1-17","question":"You are a defense lawyer and you have to go to court today. Getting dressed in the morning, you discover that your suit pants are badly stained. However, your bathing suit is clean and very stylish. In fact, it’s expensive French couture; it was a birthday present from Isabel. You decide that you should wear what?","category":"commonsense"}
+{"id":"challenge300-probes-v1-18","question":"You poured yourself a glass of cranberry juice, but then absentmindedly, you poured about a teaspoon of grape juice into it. It looks OK. You try sniffing it, but you have a bad cold, so you can’t smell anything. You are very thirsty. So you drink it. What happens next?","category":"commonsense"}
+{"id":"challenge300-probes-v1-19","question":"If you break a glass bottle that holds toy soldiers, the toy soldiers will probably what?","category":"commonsense"}
+{"id":"challenge300-probes-v1-20","question":"You order a bowl of cold tomato soup in a restaurant. It looks delicious, but they forgot to bring you a spoon. You try to drink it using your eyeglasses. What happens?","category":"commonsense"}
+{"id":"challenge300-probes-v1-21","question":"Can I cut a potato with a knife?","category":"commonsense"}
+{"id":"challenge300-probes-v1-22","question":"Can I cut a steel beam with a knife?","category":"commonsense"}
+{"id":"challenge300-probes-v1-23","question":"Can I cut a brick with a knife?","category":"commonsense"}
+{"id":"challenge300-probes-v1-24","question":"What can't I cut with a knife?","category":"commonsense"}
+{"id":"challenge300-probes-v1-25","question":"Can I cut a bone with a knife?","category":"commonsense"}
+{"id":"challenge300-probes-v1-26","question":"Does a coral snake have legs?","category":"commonsense"}
+{"id":"challenge300-probes-v1-27","question":"Does a king cobra have legs?","category":"commonsense"}
+{"id":"challenge300-probes-v1-28","question":"Do snakes have legs?","category":"commonsense"}
+{"id":"challenge300-probes-v1-29","question":"How does a snake move around?","category":"commonsense"}
+{"id":"challenge300-probes-v1-30","question":"Can you sit and stand at the same time?","category":"commonsense"}
+{"id":"challenge300-probes-v1-31","question":"Can you walk and run at the same time?","category":"commonsense"}
+{"id":"challenge300-probes-v1-32","question":"Joe is sitting. Can Joe now stand while remaining seated?","category":"commonsense"}
+{"id":"challenge300-probes-v1-33","question":"Joe is walking. Can Joe now run while still walking?","category":"commonsense"}
+{"id":"challenge300-probes-v1-34","question":"Malcolm Harrison was a farmer in Virginia who died more than 200 years ago. He had a dozen horses on his farm. How many horses will still be alive today?","category":"commonsense"}
+{"id":"challenge300-probes-v1-35","question":"Mary owns a canary named Paul. Did Paul has any ancestors who were alive in the year 1750?","category":"commonsense"}
+{"id":"challenge300-probes-v1-36","question":"Can a female eagle and a male alligator have a baby together?","category":"commonsense"}
+{"id":"challenge300-probes-v1-37","question":"When Ed was born, his father was in Boston and his mother was in Los Angeles. Where was Ed born?","category":"commonsense"}
+{"id":"challenge300-probes-v1-38","question":"If a person cuts off one of his fingers, then can the person grow a new finger?","category":"commonsense"}
+{"id":"challenge300-probes-v1-39","question":"How do pandas and parrots differ?","category":"comparison"}
+{"id":"challenge300-probes-v1-40","question":"What is the difference between a noun and a verb?","category":"comparison"}
+{"id":"challenge300-probes-v1-41","question":"James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use?","category":"entity substitution"}
+{"id":"challenge300-probes-v1-42","question":"How would you remove ice from the car window without an ice scraper?","category":"entity substitution"}
+{"id":"challenge300-probes-v1-43","question":"How would you bang in tent pegs without a hammer?","category":"entity substitution"}
+{"id":"challenge300-probes-v1-44","question":"Mary wanted to heat up some water, but her stove was broken. What else might she use instead to heat the water?","category":"entity substitution"}
+{"id":"challenge300-probes-v1-45","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the coin at the start?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-46","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the coin at the end?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-47","question":"John was in the bedroom. John put a coin in a bag. Then John took the bag to the kitchen. Then John took the coin out of the bag. John took the bag to the garden. Where was the bag at the end?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-48","question":"Imagine an empty cup. Now put a coin in the cup. Now put another coin in the cup. Now put a pen in the cup. How many coins are in the cup now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-49","question":"Imagine an empty cup. Now put a coin in the cup. Now take the coin out of the cup. How many coins are in the cup now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-50","question":"My house is red. I painted my house white. What color is my house now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-51","question":"My house is blue. I painted my house red. What color was my house before I painted it?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-52","question":"My house is red. My neighbor's house is blue. I painted my house white. What color is my house now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-53","question":"My house is red. I painted my neighbor's house white. What color is my house now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-54","question":"I bought a ticket to Hawaii. Where is the ticket now?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-55","question":"I bought a ticket to Hawaii. Where was the ticket before?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-56","question":"I bought a ticket to Hawaii from a local travel agent. Where was the ticket before?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-57","question":"Amy, Betty, Charlie, David, Ezra, Flip, and George go to a party; Betty and Charlie got bored; Ezra and Flip go out to get beer. The only people left are who?","category":"entity tracking"}
+{"id":"challenge300-probes-v1-58","question":"How many banknotes can you fit in a school bus?","category":"estimation"}
+{"id":"challenge300-probes-v1-59","question":"How many banknotes can you fit in a wallet?","category":"estimation"}
+{"id":"challenge300-probes-v1-60","question":"How many banknotes can you fit in a thimble?","category":"estimation"}
+{"id":"challenge300-probes-v1-61","question":"How many truckloads of earth does Mount Everest contain?","category":"estimation"}
+{"id":"challenge300-probes-v1-62","question":"If an observer is moving, then the entities he\/she is observing will appear to move from his\/her perspective. What is an example of this phenomenon?","category":"example generation"}
+{"id":"challenge300-probes-v1-63","question":"If you let go of an object, then gravity pulls it to the ground. What is an example of this phenomenon?","category":"example generation"}
+{"id":"challenge300-probes-v1-64","question":"James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. Why might a rock be a useful substitute for the hammer?","category":"explanation"}
+{"id":"challenge300-probes-v1-65","question":"If I went hiking for the day, why is 2 liters of water the right amount to bring with me?","category":"explanation"}
+{"id":"challenge300-probes-v1-66","question":"My design for a spaceship uses as little fuel as possible. Why is this a good design?","category":"explanation"}
+{"id":"challenge300-probes-v1-67","question":"Why does sanding remove the shine from polished granite?","category":"explanation"}
+{"id":"challenge300-probes-v1-68","question":"Why does gravity cause a ball to roll downhill?","category":"explanation"}
+{"id":"challenge300-probes-v1-69","question":"Why do houses have roofs?","category":"explanation"}
+{"id":"challenge300-probes-v1-70","question":"Why do houses have walls?","category":"explanation"}
+{"id":"challenge300-probes-v1-71","question":"Why do houses have windows?","category":"explanation"}
+{"id":"challenge300-probes-v1-72","question":"Why do houses have doors?","category":"explanation"}
+{"id":"challenge300-probes-v1-73","question":"Why does ice float?","category":"explanation"}
+{"id":"challenge300-probes-v1-74","question":"Why does ice sink?","category":"explanation"}
+{"id":"challenge300-probes-v1-75","question":"Why does it rain a lot in Seattle?","category":"explanation"}
+{"id":"challenge300-probes-v1-76","question":"Why is Seattle wet?","category":"explanation"}
+{"id":"challenge300-probes-v1-77","question":"Why is a tally sheet useful to help count things?","category":"explanation"}
+{"id":"challenge300-probes-v1-78","question":"What year did Tom Hanks land on the moon?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-79","question":"How old was Mark Zuckerberg when he founded Google?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-80","question":"How old was Mark Zuckerberg when he founded Amazon?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-81","question":"How old was Kermit the Frog when he founded Amazon?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-82","question":"How old was foo when she founded baz?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-83","question":"How can you sit and stand at the same time?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-84","question":"How can you walk and run at the same time?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-85","question":"Joe is walking. How can Joe now run while still walking?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-86","question":"Sally’s favorite cow died yesterday. When will the cow be alive again?","category":"false presupposition"}
+{"id":"challenge300-probes-v1-87","question":"Susie wants to make an omelette. What ingredients will she need?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-88","question":"Why are eggs needed for an omelette?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-89","question":"Why is milk needed for an omelette?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-90","question":"Why is butter needed for an omelette?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-91","question":"Which kind of grass is best to grow in shady areas?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-92","question":"What is shiplap?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-93","question":"What does the idiom \"kick the tires\" mean?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-94","question":"What is the role of the spark plug in a combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-95","question":"What are the parts in a car engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-96","question":"What is the role of the piston in a car engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-97","question":"What is the role of a carburetor in a car engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-98","question":"What is the role of the valves in a car engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-99","question":"What is the path of the gas through a car engine as it operates?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-100","question":"Is it dangerous to inhale smoke from wildfires?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-101","question":"Why are toxic gases bad for you?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-102","question":"What is a tally sheet useful for?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-103","question":"In what situation might a person have broken their arm?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-104","question":"What objects might be involved in a car crash?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-105","question":"How would a tree be involved in a car crash?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-106","question":"How might a telephone pole be involved in a car crash?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-107","question":"Why might a car hit a telephone pole?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-108","question":"What might cause a car to hit a telephone pole?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-109","question":"Why might a car driver be drunk?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-110","question":"How might making poor decisions result in a car crash?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-111","question":"Why does speeding cause car accidents?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-112","question":"How might speeding cause a car accident?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-113","question":"What is involved in driving?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-114","question":"What does driving a car involve?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-115","question":"What is the purpose of driving a car?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-116","question":"How many years will it take to build truly intelligent machines?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-117","question":"Why will it take hundreds of years to build truly intelligent machines?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-118","question":"Why are truly intelligent machines very complex?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-119","question":"John is counting sheep. What equipment might be useful for John?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-120","question":"What would be a good design for a spaceship?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-121","question":"How do you remove the shine from polished granite?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-122","question":"How does an internal combustion engine work?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-123","question":"How does an internal combustion engine convert fuel into kinetic energy and heat and cooled exhaust gas?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-124","question":"What are the parts of an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-125","question":"What is the purpose of the piston in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-126","question":"What is the purpose of the cylinder in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-127","question":"What is the purpose of the valves in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-128","question":"What is the purpose of the head in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-129","question":"What is the piston in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-130","question":"What is the cylinder in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-131","question":"What is the valve in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-132","question":"What is the head in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-133","question":"In an internal combustion engine, what does the piston do?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-134","question":"What does the piston do in an internal combustion engine?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-135","question":"What are the parts of a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-136","question":"What does the roof do in a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-137","question":"What is the purpose of a roof in a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-138","question":"What is the purpose of the walls in a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-139","question":"What is the purpose of the windows in a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-140","question":"What is the purpose of the doors in a house?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-141","question":"Name an object that is attracted by a magnet.","category":"general knowledge"}
+{"id":"challenge300-probes-v1-142","question":"Name an object other than a nail that is attracted by a magnet.","category":"general knowledge"}
+{"id":"challenge300-probes-v1-143","question":"Name an object other than a nail or a paper clip that is attracted by a magnet.","category":"general knowledge"}
+{"id":"challenge300-probes-v1-144","question":"Why was Aristotle's hometown more similar to California than New York?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-145","question":"Why would Aristotle have preferred a short-sleeved shirt over a warm jacket?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-146","question":"How would you make a table stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-147","question":"How would you make a rope stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-148","question":"How would you make a blanket stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-149","question":"How would you make a marriage stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-150","question":"How would you make an investment stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-151","question":"How would you mkae a balloon stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-152","question":"How would you make a road stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-153","question":"How would you make a window stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-154","question":"How would you make a contract stronger?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-155","question":"What does colorless mean?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-156","question":"Does oxygen have a hue?","category":"general knowledge"}
+{"id":"challenge300-probes-v1-157","question":"Tell me a story about a car accident.","category":"generation"}
+{"id":"challenge300-probes-v1-158","question":"What were the causes of World War II?","category":"history"}
+{"id":"challenge300-probes-v1-159","question":"What were the main problems with the League of Nations, formed in 1920?","category":"history"}
+{"id":"challenge300-probes-v1-160","question":"How should I break up with my girlfriend?","category":"human behavior"}
+{"id":"challenge300-probes-v1-161","question":"I feel sad. What could I do to cheer myself up?","category":"human behavior"}
+{"id":"challenge300-probes-v1-162","question":"Why is it hard to find good building contractors?","category":"human behavior"}
+{"id":"challenge300-probes-v1-163","question":"Almanzo turned to Mr. Thompson and asked, \"Did you lose a pocketbook?\" Mr. Thompson jumped. He slapped a hand to his pocket and fairly shouted, \"Yes, I have! Fifteen hundred dollars in it, too!\". What did Mr. Thompson say next?","category":"human behavior"}
+{"id":"challenge300-probes-v1-164","question":"Almanzo turned to Mr. Thompson and asked, \"Did you lose a pocketbook?\" Mr. Thompson jumped. He slapped a hand to his pocket and fairly shouted, \"Yes, I have! Fifteen hundred dollars in it, too!\".  What did Almanzo say in reply?","category":"human behavior"}
+{"id":"challenge300-probes-v1-165","question":"If plastic was a conductor, then would a plastic spoon conduct electricity?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-166","question":"If plastic was an insulator, then would a plastic spoon conduct electricity?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-167","question":"If dinosaurs were alive today, how would the world be different?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-168","question":"If an asteroid was heading directly for the Earth, what steps could we take to avert catastrophe?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-169","question":"If you put a plant in a dark room, how will its photosynthesis be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-170","question":"If a bird didn't have wings, how would it be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-171","question":"If a car did not have any gas in it, how would it be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-172","question":"If an electric car did not have any gas in it, how would it be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-173","question":"If a bird did not have wings, would it be able to eat?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-174","question":"If there was no sun, how would life be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-175","question":"If my house did not have a roof, and it rained, what would happen to my bed upstairs?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-176","question":"If my house had a roof, and it rained, what would happen to my bed upstairs?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-177","question":"If my house did not have a roof, and it rained, what would happen to my bed downstairs?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-178","question":"If an airplane runs out of fuel on the runway, what would happen?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-179","question":"If a stationary airplane runs out of fuel, what would happen?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-180","question":"If a stationary airplane on the ground runs out of fuel, what would happen?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-181","question":"If a car's battery is flat, how would the car be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-182","question":"If a person had an infinite short-term memory, why wouldn't they need a tally sheet to count things?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-183","question":"A plant is in a dark room. Will it be able to photosynthesize?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-184","question":"A plant is in a dark room. Will it still grow?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-185","question":"If a plant had no leaves, could it photosynthesize?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-186","question":"If you pulled the leaves off a plant, how would it be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-187","question":"If the leaves were pulled off a plant, the plant would not be able to do what?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-188","question":"There is a windstorm in the city. How might houses in the city be affected?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-189","question":"There is a windstorm in the city. Why might the roofs of houses be blown off?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-190","question":"How would you make a house conduct electricity?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-191","question":"If a gas was colored blue, what would this imply?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-192","question":"If oxygen were blue, what would happen?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-193","question":"If oxygen were blue, what would be a result?","category":"hypothetical"}
+{"id":"challenge300-probes-v1-194","question":"What is 56 + 49?","category":"math"}
+{"id":"challenge300-probes-v1-195","question":"What is 241 + 7864?","category":"math"}
+{"id":"challenge300-probes-v1-196","question":"What is an implication of a cat being an animal?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-197","question":"What is an incorrect implication of a cat being an animal?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-198","question":"What is an implication of something being colorless?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-199","question":"What is an implication of something being blue?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-200","question":"What is an implication of something being green?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-201","question":"What is an implication of something being colored green?","category":"meta-reasoning"}
+{"id":"challenge300-probes-v1-202","question":"A young boy was rushed to the hospital emergency room, but the ER doctor saw the boy and refused to operate. \"This boy is my son,\" the doctor said. But the doctor wasn't the boy's father. How could this be?","category":"riddle"}
+{"id":"challenge300-probes-v1-203","question":"A truck driver is going down a one-way street the wrong way and passes at least ten cops. Why is he not caught?","category":"riddle"}
+{"id":"challenge300-probes-v1-204","question":"What is the difference between ELMO and BERT?","category":"science"}
+{"id":"challenge300-probes-v1-205","question":"Which research organization invented the ELMO language model?","category":"science"}
+{"id":"challenge300-probes-v1-206","question":"Is it possible to travel faster than light?","category":"science"}
+{"id":"challenge300-probes-v1-207","question":"What is the most important advantage of quantum computing?","category":"science"}
+{"id":"challenge300-probes-v1-208","question":"What is COVID-19?","category":"science"}
+{"id":"challenge300-probes-v1-209","question":"What makes eggplant purple?","category":"science"}
+{"id":"challenge300-probes-v1-210","question":"What causes blossom-end rot?","category":"science"}
+{"id":"challenge300-probes-v1-211","question":"How can I find Orion's Belt in the night sky?","category":"science"}
+{"id":"challenge300-probes-v1-212","question":"What causes fermentation?","category":"science"}
+{"id":"challenge300-probes-v1-213","question":"A student perfoms an experiment growing two plants. One plant is placed in a dark room and the other plant is placed near a window. The plant near the window grows faster than the plant in the dark.  What does this experiment suggest?","category":"science"}
+{"id":"challenge300-probes-v1-214","question":"A student performs an experiment growing two plants. One plant is placed in a dark room and the other plant is placed near a window. The plant near the window grows slower than the plant in the dark. What does this experiment suggest?","category":"science"}
+{"id":"challenge300-probes-v1-215","question":"An experiment is performed with a sealed container. The container starts out with a temperature of 70 degrees F and an air pressure of 20 psi. The container is heated, and the pressure inside the container rises evenly with increased temperature. If the container is cooled back to 70 degrees F, what will the air pressure be?","category":"science"}
+{"id":"challenge300-probes-v1-216","question":"What gases are involved in photosynthesis?","category":"science"}
+{"id":"challenge300-probes-v1-217","question":"What is the role of hydrogen peroxide in photosynthesis?","category":"science"}
+{"id":"challenge300-probes-v1-218","question":"What are the products of photosynthesis?","category":"science"}
+{"id":"challenge300-probes-v1-219","question":"Why is the sky blue?","category":"science"}
+{"id":"challenge300-probes-v1-220","question":"Why does the sky reflect blue light?","category":"science"}
+{"id":"challenge300-probes-v1-221","question":"Why do plants produce sugar?","category":"science"}
+{"id":"challenge300-probes-v1-222","question":"Why do plants need energy?","category":"science"}
+{"id":"challenge300-probes-v1-223","question":"Why does it get colder at higher altitudes?","category":"science"}
+{"id":"challenge300-probes-v1-224","question":"How does photosynthesis work?","category":"science"}
+{"id":"challenge300-probes-v1-225","question":"What are the inputs for photosynthesis?","category":"science"}
+{"id":"challenge300-probes-v1-226","question":"List the inputs of photosynthesis.","category":"science"}
+{"id":"challenge300-probes-v1-227","question":"What are the outputs of photosynthesis?","category":"science"}
+{"id":"challenge300-probes-v1-228","question":"List the outputs of photosynthesis.","category":"science"}
+{"id":"challenge300-probes-v1-229","question":"Where does photosynthesis occur?","category":"science"}
+{"id":"challenge300-probes-v1-230","question":"In what part of a plant does photosynthesis occur?","category":"science"}
+{"id":"challenge300-probes-v1-231","question":"List all the gases involved in photosynthesis.","category":"science"}
+{"id":"challenge300-probes-v1-232","question":"What force causes a ball to roll downhill?","category":"science"}
+{"id":"challenge300-probes-v1-233","question":"How does a volcanic eruption interfere with the ability of producers to obtain the energy they need to produce food?","category":"science"}
+{"id":"challenge300-probes-v1-234","question":"How does a volcanic eruption result in reduced sunlight?","category":"science"}
+{"id":"challenge300-probes-v1-235","question":"Why does a reduction in sunlight cause produces to receive less energy than they need to produce food?","category":"science"}
+{"id":"challenge300-probes-v1-236","question":"List all the birds.","category":"science"}
+{"id":"challenge300-probes-v1-237","question":"List all the animals.","category":"science"}
+{"id":"challenge300-probes-v1-238","question":"List all the mammals.","category":"science"}
+{"id":"challenge300-probes-v1-239","question":"List all the snakes.","category":"science"}
+{"id":"challenge300-probes-v1-240","question":"How many legs does a snake have?","category":"science"}
+{"id":"challenge300-probes-v1-241","question":"Is oxygen transparent?","category":"science"}
+{"id":"challenge300-probes-v1-242","question":"Does oxygen reflect blue light?","category":"science"}
+{"id":"challenge300-probes-v1-243","question":"Does oxygen contain a lot of hydrogen?","category":"science"}
+{"id":"challenge300-probes-v1-244","question":"You blow up a toy balloon, and tie the end shut. What is the air pressure in the balloon, relative to outside?","category":"science"}
+{"id":"challenge300-probes-v1-245","question":"Where is the roof relative to the walls and floors in a house?","category":"spatial"}
+{"id":"challenge300-probes-v1-246","question":"Where are the walls relative to the roof and floors in a house?","category":"spatial"}
+{"id":"challenge300-probes-v1-247","question":"Where is the floor relative to the roof and walls in a house?","category":"spatial"}
+{"id":"challenge300-probes-v1-248","question":"Why was it easier for Aristotle to travel to Egypt than Eastern Asia?","category":"spatial"}
+{"id":"challenge300-probes-v1-249","question":"How can I reach a high window in my kitchen?","category":"spatial"}
+{"id":"challenge300-probes-v1-250","question":"You want to mail a beautiful eight-inch diameter circular piece of fabric to your mother. The only box you have is five-by-five-by-two inches. You will have to do what?","category":"spatial"}
+{"id":"challenge300-probes-v1-251","question":"The year is 2075. Violet Blair is an astronaut on the Moon, in the Sea of Tranquility. Right now, on Earth, there is a solar eclipse. Violet looks in the direction of the Earth and sees what?","category":"spatial"}
+{"id":"challenge300-probes-v1-252","question":"John is left of Sue. Where is Sue relative to John?","category":"spatial"}
+{"id":"challenge300-probes-v1-253","question":"John is left of Sue. Sue is left of Mike. Where is Mike relative to John?","category":"spatial"}
+{"id":"challenge300-probes-v1-254","question":"John is left of Sue. Sue is left of Mike. Where is Sue relative to John?","category":"spatial"}
+{"id":"challenge300-probes-v1-255","question":"If you brought a canary and an alligator together to the same place, could the canary could see what is inside the alligator’s stomach?","category":"spatial"}
+{"id":"challenge300-probes-v1-256","question":"What are the steps involved in replacing a light bulb?","category":"steps"}
+{"id":"challenge300-probes-v1-257","question":"How do I make a loaf of bread?","category":"steps"}
+{"id":"challenge300-probes-v1-258","question":"What are the steps involved in making a loaf of bread?","category":"steps"}
+{"id":"challenge300-probes-v1-259","question":"What are the four steps in making bread?","category":"steps"}
+{"id":"challenge300-probes-v1-260","question":"What are the steps involved in counting cars that pass a school each day?","category":"steps"}
+{"id":"challenge300-probes-v1-261","question":"If you want to drive a car, what do you do first?","category":"steps"}
+{"id":"challenge300-probes-v1-262","question":"In an internal combustion engine, what happens after the air is compressed in the cylinder?","category":"steps"}
+{"id":"challenge300-probes-v1-263","question":"In an internal combustion engine, what happens after the air is heated?","category":"steps"}
+{"id":"challenge300-probes-v1-264","question":"Some kids are planning a rollerskating race. What happens next?","category":"steps"}
+{"id":"challenge300-probes-v1-265","question":"Some kids are planning a rollerskating race. They practice. What happens next?","category":"steps"}
+{"id":"challenge300-probes-v1-266","question":"List all the steps in planning a vacation.","category":"steps"}
+{"id":"challenge300-probes-v1-267","question":"List all the steps in going to the zoo.","category":"steps"}
+{"id":"challenge300-probes-v1-268","question":"List all the steps in making a cake.","category":"steps"}
+{"id":"challenge300-probes-v1-269","question":"List all the steps in repairing a flat tire.","category":"steps"}
+{"id":"challenge300-probes-v1-270","question":"List all the steps in planning a wedding.","category":"steps"}
+{"id":"challenge300-probes-v1-271","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why did I call a taxi?","category":"story understanding"}
+{"id":"challenge300-probes-v1-272","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why couldn't I drive home?","category":"story understanding"}
+{"id":"challenge300-probes-v1-273","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why was I in hospital?","category":"story understanding"}
+{"id":"challenge300-probes-v1-274","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. How did I get my injuries?","category":"story understanding"}
+{"id":"challenge300-probes-v1-275","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. What was a result of the crash?","category":"story understanding"}
+{"id":"challenge300-probes-v1-276","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Was I hurt in the crash?","category":"story understanding"}
+{"id":"challenge300-probes-v1-277","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. Why did I go to the hospital?","category":"story understanding"}
+{"id":"challenge300-probes-v1-278","question":"I crashed my car. When I finally left the hospital, all I wanted to do was sleep. I had to call a taxi. When did I leave the hospital?","category":"story understanding"}
+{"id":"challenge300-probes-v1-279","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why was Josh grounded?","category":"story understanding"}
+{"id":"challenge300-probes-v1-280","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the teacher tell Joshua not to bring his bird again?","category":"story understanding"}
+{"id":"challenge300-probes-v1-281","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What bad word might the parrot have said?","category":"story understanding"}
+{"id":"challenge300-probes-v1-282","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did Josh bring the parrot to school?","category":"story understanding"}
+{"id":"challenge300-probes-v1-283","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh feel?","category":"story understanding"}
+{"id":"challenge300-probes-v1-284","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What was Josh doing during show and tell?","category":"story understanding"}
+{"id":"challenge300-probes-v1-285","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did the teacher feel?","category":"story understanding"}
+{"id":"challenge300-probes-v1-286","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh's parents feel?","category":"story understanding"}
+{"id":"challenge300-probes-v1-287","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the parrot saying a bad word make the teacher mad?","category":"story understanding"}
+{"id":"challenge300-probes-v1-288","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Why did the parrot saying a bad word make Josh's parents mad?","category":"story understanding"}
+{"id":"challenge300-probes-v1-289","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What happens during show and tell?","category":"story understanding"}
+{"id":"challenge300-probes-v1-290","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did the teacher feel before show and tell?","category":"story understanding"}
+{"id":"challenge300-probes-v1-291","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. What did the other children in Josh's class think of the parrot?","category":"story understanding"}
+{"id":"challenge300-probes-v1-292","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Did the other children in Josh's class mind that the parrot had said a bad word?","category":"story understanding"}
+{"id":"challenge300-probes-v1-293","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. How did Josh's parents find out about the parrot saying a bad word?","category":"story understanding"}
+{"id":"challenge300-probes-v1-294","question":"Josh had a parrot that talked. He brought his parrot to school. During show and tell, Josh's parrot said a bad word. The teacher told Joshua not to bring his bird again. When Josh got home, he was grounded. Who grounded Josh?","category":"story understanding"}
+{"id":"challenge300-probes-v1-295","question":"Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily.  The show was absolutely exhilarating. What happened that might cause Karen to become good friends with her roommate?","category":"story understanding"}
+{"id":"challenge300-probes-v1-296","question":"Why were Neanderthals unable to own Aristotle's books?","category":"temporal"}
+{"id":"challenge300-probes-v1-297","question":"Moshe posted on Facebook a photograph showing Maurice Ravel, Francois Poulenc, Frederic Mompou, and Erik Satie. Satie died in 1925. Poulenc was born in 1899. So the photograph must  have been taken when?","category":"temporal"}
+{"id":"challenge300-probes-v1-298","question":"The trophy couldn't fit into the box because it was too big. What was too big?","category":"Winograd"}
+{"id":"challenge300-probes-v1-299","question":"The elephant couldn't fit into the box because it was too big. What was too big?","category":"Winograd"}
+{"id":"challenge300-probes-v1-300","question":"A man is watching television. The elephant couldn't fit in the box because it was too big. What was too big?","category":"Winograd"}
