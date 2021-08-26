@@ -27,7 +27,8 @@ output = model.generate(input_ids, max_length=200)
 ['$answer$ = gray ; $mcoptions$ = (A) blue (B) white (C) grey (D) white']
 ```
 
-(note there's no guarantee the different slots are fully coherent, as in the gray/grey case here)
+Note there's no guarantee the different slots are fully coherent, as in gray/grey (and duplicate "white") here,
+more so for the macaw-large model vs the larger ones.
 
 ### Supported slots
 
@@ -72,15 +73,17 @@ Some suggestive examples from the Macaw (11B) model, for different angles:
   → M: (A) car battery (B) windshield wiper blade (C) car radio (D) car radio antenna
   
   
-## Probing examples
+## The Challenge300 dataset of probing questions
 
 The Challenge300 set of 300 diverse probing examples can be found in [challenge300-probes-v1.jsonl](challenge300-probes-v1.jsonl). The output
-from Macaw (at different sizes), as well as outputs from GPT3 and alternate T5 models trained on NaturalQuestions, can be seen
-[here](examples.md).
+from Macaw (at different sizes), as well as outputs from [GPT3](https://arxiv.org/pdf/2005.14165.pdf), 
+[Jurassic-1](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1) and 
+[alternate T5 models](https://www.aclweb.org/anthology/2020.emnlp-main.437/) trained on NaturalQuestions, can be seen in
+[examples.md](examples.md).
 
 ## Demo
 
-See [here](demo) for instructions and code to run an interactive version of Macaw.
+See the [demo folder](demo) for instructions and code to host an interactive version of Macaw.
 
 ## Training data
 
@@ -102,7 +105,7 @@ model [T5](https://github.com/google-research/text-to-text-transfer-transformer)
        * [ARC](https://allenai.org/data/arc): QMC→AE, AQC→M, QMEC→A, QME→A, QE→A, QMC→A, QC→AE, QM→AE, QMAC→E, QMA→E
        * [ARC-DA](https://allenai.org/data/arc-da): QC→AE, Q→AE, QC→A, Q→A, QEC→A, QE→A, AE→Q, AC→Q, QA→E, AQC→E
        
-   3. A specialized answer-focused model, <b>macaw-answer-11b</b> (called "UnifiedQA + ARC MC/DA + IR" on the 
+   2b. A specialized answer-focused model, <b>macaw-answer-11b</b> (called "UnifiedQA + ARC MC/DA + IR" on the 
    leaderboards for [ARC](https://leaderboard.allenai.org/arc/submissions/public), 
    [ARC-Easy](https://leaderboard.allenai.org/arc_easy/submissions/public), and 
    [ARC-DA](https://leaderboard.allenai.org/genie-arcda/submissions/public))
