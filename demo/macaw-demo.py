@@ -447,10 +447,10 @@ def get_raw_response(state_dict):
         if key in state_dict:
             val = state_dict[key]
             if isinstance(val, str):
-                if isinstance(init_val, int):
-                    val = int(val)
-                elif isinstance(init_val, bool):
+                if isinstance(init_val, bool):
                     val = int(val) > 0
+                elif isinstance(init_val, int):
+                    val = int(val)
                 else:
                     val = float(val)
             generator_options[key] = val
