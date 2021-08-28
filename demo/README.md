@@ -1,13 +1,13 @@
 # Macaw demo
 
-For convenience, we provide the minimally documented file `macaw-demo.py` with self-contained code 
+For convenience, we provide the minimally documented file `macaw_demo.py` with self-contained code 
 for starting a local demo to interact with Macaw models in 
 a browser (or through a REST API). It uses the [streamlit](https://streamlit.io/) framework, but the code
 can easily be modified for other use cases.
 
 To configure the demo, simply modify the variables near the top of the file, e.g.,
 
-```buildoutcfg
+```
 # CONFIGURATION
 MODEL_NAME_OR_PATH = "allenai/macaw-large"  # Name or path to model
 CUDA_DEVICES = []   # List of available CUDA devices if any, e.g., [0, 2]
@@ -17,14 +17,15 @@ This defines which model to use (downloaded to local cache from the Hugging Face
 a local directory where model is stored) as well as any
 GPU devices available (recommended for good performance for the models larger than Macaw-large).
 
-Also make sure the dependencies are installed (e.g., run `pip install -r requirements.txt`), and the demo is started
-by running `streamlit run macaw-demo.py`. It might take a few minutes for the model to load and be ready, and
+Also make sure the dependencies are installed (e.g., run `pip install -r requirements.txt`, ideally in a
+dedicated virtual environment), and the demo is started
+by running `streamlit run macaw_demo.py`. It might take a few minutes for the model to load and be ready, and
 then the demo can be accessed in a browser by going to http://localhost:8501/.
 
 The input format in the demo expects each slot to be given on separate lines, prefixed by the slot capital
 letter, with output slots given without value. E.g., a request for angle QM->AE is given as:
 
-```buildoutcfg
+```
 Q: Which characteristic of a cheetah is more likely to be learned rather than inherited?
 M: (A) speed (B) a spotted coat (C) hunting strategies (D) claws that do not retract
 A
@@ -33,7 +34,7 @@ E
 
 which, for the Macaw-large model, should give the output:
 
-```buildoutcfg
+```
 Answer: hunting strategies
 Explanation: Skills are learned characteristics. Hunting is a kind of skill.
 ```
@@ -42,7 +43,7 @@ The demo also supports a special mode for scoring different answer options, this
 output slot, and makes the most sense when the answer options are also present as multiple-choice options. This
 is indicated by the special "X" slot, an example would be:
 
-```buildoutcfg
+```
 Q: What material is magnetic?
 M: (A) iron (B) copper (C) paper
 X: (A) iron (B) copper (C) paper
@@ -50,7 +51,7 @@ A
 ```
 which (again for Macaw-large) should produce the output:
 
-```buildoutcfg
+```
 Output rank 1:
 Answer: iron
 
@@ -79,7 +80,8 @@ an empty model, moving it to the GPU, load the weights, move weights to GPU, del
 ## REST API
 
 The demo code also includes a REST api available at port 8502 (by default), it takes an input string in same format, along with
-optional generator options. A couple of examples using curl (with newlines inserted for readability):
+optional generator options. A couple of examples using curl (with newlines inserted for readability), using the
+(inferior) Macaw-large model:
 
 ```
 $ curl --data-urlencode $'input=Q: What material is magnetic?\nM: (A) iron (B) copper (C) paper\nA' -G http://localhost:8502/api
