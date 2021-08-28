@@ -44,8 +44,8 @@ For many more examples of the basic Q→A angle, see [examples.md](examples.md).
 
 ## Usage examples
 
-Macaw can easily be used in the Hugging Face  
-[transformers](https://github.com/huggingface/transformers) library, as shown here for the 
+Macaw can easily be used in the Hugging Face [transformers](https://github.com/huggingface/transformers) 
+library, as shown here for the 
 smallest model (the smallest model is not generally recommended, but has much 
 smaller footprint), where given a question we want to return an answer and 
 suggested multiple-choice answer options.
@@ -105,7 +105,7 @@ as well, one exception is that the context (C) only appears as an input slot in 
   
 ## The Challenge300 dataset of probing questions
 
-The Challenge300 set of 300 diverse probing examples can be found in 
+The **Challenge300** dataset of 300 diverse probing examples can be found in 
 [challenge300-probes-v1.jsonl](challenge300-probes-v1.jsonl). The basic Q→A output
 from Macaw (at different sizes), as well as outputs from [GPT3](https://arxiv.org/pdf/2005.14165.pdf), 
 [Jurassic-1](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1) and 
