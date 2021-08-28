@@ -8,14 +8,49 @@ trained on. It has been trained in "multi-angle" fashion, which means it can han
 and output "slots" (like question, answer, explanation) .
 
 Macaw was built on top of [T5](https://github.com/google-research/text-to-text-transfer-transformer) and 
-comes in three sizes corresponding to T5-11B, T5-3B, T5-large.
+comes in different sizes:  [macaw-11b](https://huggingface.co/allenai/macaw-11b), [macaw-3b](https://huggingface.co/allenai/macaw-3b), 
+and [macaw-large](https://huggingface.co/allenai/macaw-large), as well as an answer-focused version featured on 
+various leaderboards: [macaw-answer-11b](https://huggingface.co/allenai/macaw-answer-11b) (see [below](#training-data)).
 
-### Minimal usage example
+### Examples
 
-Here is a basic example showing use of the smallest model based on T5-large (not generally recommended, but has much 
-smaller footprint), where given a question we want to return an answer and suggested multiple-choice answer options.
+Some suggestive examples from the Macaw (11B) model, for different angles:
 
-```buildoutcfg
+  * (Q→A) <i>Given a question, what's the answer?</i> <br>
+  **Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
+  → A: rocks**
+  
+  * (QM→A) <i>Given a question and answer choices, what's the answer?</i> <br>
+  **Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
+           M: (A) a leaf (B) a log (C) a worm <br>
+  → A: a log**
+
+  * (Q→AE) <i>Given a question, what's the answer and an explanation?</i><br>
+  **Q: Which force pulls objects to the ground? <br>
+  → A: gravity <br>
+  → E: Gravitational force causes objects that have mass to be pulled down on a planet.**
+
+  * (A→QE) <i>Given an answer, what's a plausible question and explanation?</i><br>
+  **A: elephant <br>
+  → Q: Which animal has the largest ears? <br>
+  → E: The ears of an elephant are the largest.**
+
+  * (C→QA) <i>Given a context, what's a plausible question and answer?</i><br>
+  **C: A car needs a battery to start. <br>
+  → Q: What is required for a car to start? <br>
+  → A: battery**
+  
+For many more examples of the basic Q→A angle, see [examples.md](examples.md).
+
+## Usage examples
+
+Macaw can easily be used in the Hugging Face  
+[transformers](https://github.com/huggingface/transformers) library, as shown here for the 
+smallest model (the smallest model is not generally recommended, but has much 
+smaller footprint), where given a question we want to return an answer and 
+suggested multiple-choice answer options.
+
+```
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 tokenizer = AutoTokenizer.from_pretrained("allenai/macaw-large")
 model = AutoModelForSeq2SeqLM.from_pretrained("allenai/macaw-large")
@@ -30,7 +65,28 @@ output = model.generate(input_ids, max_length=200)
 Note there's no guarantee the different slots are fully coherent, as in gray/grey (and duplicate "white") here,
 more so for the macaw-large model vs the larger ones.
 
-### Supported slots
+The code `demo/macaw_utils.py` includes some convenience wrappers, such as `load_model` and 
+`run_macaw`, here some examples
+loading the macaw-11b model onto two GPUs (need around 48GB total GPU memory for the 
+largest model to work):
+
+```
+from demo.macaw_utils import load_model, run_macaw
+model_dict = load_model("allenai/macaw-11b", [0,1])
+res1 = run_macaw("Q: Which force pulls objects to the ground?\nA\nE", model_dict)
+# Alternate input syntax
+res2 = run_macaw({"Q:":"Which force causes a compass needle to point north?", "A":""}, model_dict)
+# Add sampling options for the output
+res3 = run_macaw("Q: Which force pulls objects to the ground?\nA\nE", model_dict, {"do_sample": True, "temperature": 2.0})
+
+>>> [print(res["output_slots_list"][0]) for res in [res1, res2, res3]]
+{'answer': 'gravity', 'explanation': 'Gravitational force causes objects that have mass to be pulled down on a planet.'}
+{'answer': 'magnetism'}
+{'answer': 'gravitional force', 'explanation': 'Gravitational force causes objects that have mass to be pulled down on a planet.'}
+```
+
+
+## Supported slots
 
 Here are the slots available in Macaw, generally applicable for both input and output:
 
@@ -46,36 +102,11 @@ An angle is a specific set of input/output slots, for instance QM->AE is the tas
 given a question and multiple-choice options. Macaw is trained on a wide variety of angles and handles unseen angles
 as well, one exception is that the context (C) only appears as an input slot in the training data.
 
-### Examples
-
-Some suggestive examples from the Macaw (11B) model, for different angles:
-
-  * (Q→A) Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
-  → A: rocks
-  
-  * (QM→A) Q: James went camping in the woods, but forgot to bring a hammer to bang the tent pegs in. What else might he use? <br> 
-           M: (A) a leaf (B) a log (C) a worm <br>
-  → A: a log
-
-  * (Q→A) Q: If plastic was an insulator, then would a plastic spoon conduct electricity? <br>
-  → A: no
-
-  * (Q→AE) Q: Which force pulls objects to the ground? <br>
-  → A: gravity <br>
-  → E: Gravitational force causes objects that have mass to be pulled down on a planet.
-
-  * (A→QE) A: elephant <br>
-  → Q: Which animal has the largest ears? <br>
-  → E: The ears of an elephant are the largest.
-
-  * (A→QM) A: car battery <br>
-  → Q: Which of these items is necessary for a car to start? <br>
-  → M: (A) car battery (B) windshield wiper blade (C) car radio (D) car radio antenna
-  
   
 ## The Challenge300 dataset of probing questions
 
-The Challenge300 set of 300 diverse probing examples can be found in [challenge300-probes-v1.jsonl](challenge300-probes-v1.jsonl). The output
+The Challenge300 set of 300 diverse probing examples can be found in 
+[challenge300-probes-v1.jsonl](challenge300-probes-v1.jsonl). The basic Q→A output
 from Macaw (at different sizes), as well as outputs from [GPT3](https://arxiv.org/pdf/2005.14165.pdf), 
 [Jurassic-1](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1) and 
 [alternate T5 models](https://www.aclweb.org/anthology/2020.emnlp-main.437/) trained on NaturalQuestions, can be seen in
@@ -105,7 +136,7 @@ model [T5](https://github.com/google-research/text-to-text-transfer-transformer)
        * [ARC](https://allenai.org/data/arc): QMC→AE, AQC→M, QMEC→A, QME→A, QE→A, QMC→A, QC→AE, QM→AE, QMAC→E, QMA→E
        * [ARC-DA](https://allenai.org/data/arc-da): QC→AE, Q→AE, QC→A, Q→A, QEC→A, QE→A, AE→Q, AC→Q, QA→E, AQC→E
        
-   2b. A specialized answer-focused model, <b>macaw-answer-11b</b> (called "UnifiedQA + ARC MC/DA + IR" on the 
+   3. A specialized answer-focused model, <b>macaw-answer-11b</b> (called "UnifiedQA + ARC MC/DA + IR" on the 
    leaderboards for [ARC](https://leaderboard.allenai.org/arc/submissions/public), 
    [ARC-Easy](https://leaderboard.allenai.org/arc_easy/submissions/public), and 
    [ARC-DA](https://leaderboard.allenai.org/genie-arcda/submissions/public))
@@ -116,7 +147,7 @@ model [T5](https://github.com/google-research/text-to-text-transfer-transformer)
    
 ## Available models
 
-Macaw models in three different sizes can be accessed from the Hugging Face model hub:
+The Macaw models can be accessed from the Hugging Face model hub:
 
    * [macaw-11b](https://huggingface.co/allenai/macaw-11b)  (11 billion parameters)
    * [macaw-3b](https://huggingface.co/allenai/macaw-3b)  (3 billion parameters)
@@ -141,8 +172,8 @@ offensive material, so appropriate caution is advised when using the model.
 
 ## Citation
 
-If you use Macaw in your work, please reference the related [paper] using
+If you use Macaw in your work, please reference the related [paper]() using
 
-```buildoutcfg
+```
 @article{...}
 ```
