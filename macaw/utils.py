@@ -1,3 +1,4 @@
+import json
 import math
 import random
 import re
@@ -15,7 +16,25 @@ DEFAULT_SLOT_FORMAT = {
 }
 
 SLOT_SHORTFORMS = {"Q": "Question", "C": "Context", "A": "Answer", "E": "Explanation", "M": "MCOptions"}
-ALL_SLOTS_LC_DICT = {x.lower(): x for x in SLOT_SHORTFORMS.values()}
+SLOT_FROM_LC = {x.lower(): x for x in SLOT_SHORTFORMS.values()}
+SLOT_KEY_FROM_LC = {v.lower(): k for k, v in SLOT_SHORTFORMS.items()}
+
+
+def save_jsonl(file_name, data):
+    with open(file_name, 'w') as file:
+        for d in data:
+            file.write(json.dumps(d))
+            file.write("\n")
+
+
+def load_jsonl(file_name):
+    with open(file_name, 'r') as file:
+        return [json.loads(line.strip()) for line in file]
+
+
+def save_json(file_name, data):
+    with open(file_name, 'w') as file:
+        file.write(json.dumps(data))
 
 
 # Load model and tokenizer, also return the cuda device used for input to model
@@ -131,25 +150,32 @@ def normalize_whitespace(input_string):
 
 
 # Construct model input string from input/output slots and values, where output slots have an empty value, e.g.,
-# fields = {"Q": "What is foo?", "A": ""} produces
-# ("$answer$ ; $question$ = What is foo?", {"question": "What is foo?"}, "Q->A")
-def make_input_string(fields, fmt=None):
+# fields = {"Q": "What is foo?", "A": ""} or
+# fields = {"question": "What is foo?", ...} and angle = [["question"], ["angle"]] produces
+# ("$answer$ ; $question$ = What is foo?", {"Question": "What is foo?"}, "Q->A")
+def make_input_string(fields, angle=None, fmt=None):
     fmt = fmt or DEFAULT_SLOT_FORMAT
     input_slots = []
     input_slots_nice = {}
     output_slots = []
     angle_in = ""
     angle_out = ""
-    for slot, value in fields.items():
+    if angle is None:
+        slots = fields
+    else:
+        slots = {s:v for s,v in fields.items() if s in angle[0]}
+        slots.update({s: "" for s in angle[1]})
+    for slot, value in slots.items():
         slot_full = SLOT_SHORTFORMS.get(slot, slot).lower()
+        slot_short = SLOT_KEY_FROM_LC.get(slot_full, slot_full[0].upper())
         slot_name = fmt['slot'].replace("SLOT", slot_full)
         if value.strip() == "":
             output_slots.append(slot_name)
-            angle_out += slot
+            angle_out += slot_short
         else:
             input_slots_nice[SLOT_SHORTFORMS.get(slot, slot)] = value
             input_slots.append(f"{slot_name}{fmt['assign']}{value}")
-            angle_in += slot
+            angle_in += slot_short
     return fmt['separator'].join(output_slots + input_slots), input_slots_nice, angle_in+"->"+angle_out
 
 
@@ -266,6 +292,7 @@ def get_raw_response(state_dict, compute_answer_fn=None, model_dict=None):
     if explicit_outputs is not None:
         res['explicit_output_angle'] = SLOT_SHORTFORMS.get(angle_out, angle_out)
     return res
+
 
 # Example:
 # >> model_dict = load_model("allenai/macaw-large")

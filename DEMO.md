@@ -1,6 +1,6 @@
 # Macaw demo
 
-For convenience, we provide the minimally documented file `macaw_demo.py` with self-contained code 
+For convenience, we provide the minimally documented file [`macaw/demo.py`](macaw/demo.py) with self-contained code 
 for starting a local demo to interact with Macaw models in 
 a browser (or through a REST API). It uses the [streamlit](https://streamlit.io/) framework, but the code
 can easily be modified for other use cases.
@@ -19,7 +19,7 @@ GPU devices available (recommended for good performance for the models larger th
 
 Also make sure the dependencies are installed (e.g., run `pip install -r requirements.txt`, ideally in a
 dedicated virtual environment), and the demo is started
-by running `streamlit run macaw_demo.py`. It might take a few minutes for the model to load and be ready, and
+by running `streamlit run macaw/demo.py`. It might take a few minutes for the model to load and be ready, and
 then the demo can be accessed in a browser by going to http://localhost:8501/.
 
 The input format in the demo expects each slot to be given on separate lines, prefixed by the slot capital
