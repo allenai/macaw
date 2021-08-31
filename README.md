@@ -72,7 +72,7 @@ largest model to work):
 
 ```
 from macaw.utils import load_model, run_macaw
-model_dict = load_model("allenai/macaw-11b", [0,1])
+model_dict = load_model("allenai/macaw-11b", cuda_devices=[0,1])
 res1 = run_macaw("Q: Which force pulls objects to the ground?\nA\nE", model_dict)
 # Alternate input syntax
 res2 = run_macaw({"Q:":"Which force causes a compass needle to point north?", "A":""}, model_dict)
