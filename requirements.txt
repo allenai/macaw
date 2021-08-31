@@ -2,3 +2,7 @@ torch
 transformers
 sentencepiece
 protobuf
+
+# Extra packages needed to run demo code:
+streamlit
+flask

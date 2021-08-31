@@ -65,13 +65,13 @@ output = model.generate(input_ids, max_length=200)
 Note there's no guarantee the different slots are fully coherent, as in gray/grey (and duplicate "white") here,
 more so for the macaw-large model vs the larger ones.
 
-The code `demo/macaw_utils.py` includes some convenience wrappers, such as `load_model` and 
-`run_macaw`, here some examples
+The code in `macaw/utils.py` includes some convenience wrappers, such as `load_model` and 
+`run_macaw`, here are some examples
 loading the macaw-11b model onto two GPUs (need around 48GB total GPU memory for the 
 largest model to work):
 
 ```
-from demo.macaw_utils import load_model, run_macaw
+from macaw.utils import load_model, run_macaw
 model_dict = load_model("allenai/macaw-11b", [0,1])
 res1 = run_macaw("Q: Which force pulls objects to the ground?\nA\nE", model_dict)
 # Alternate input syntax
@@ -85,6 +85,7 @@ res3 = run_macaw("Q: Which force pulls objects to the ground?\nA\nE", model_dict
 {'answer': 'gravitional force', 'explanation': 'Gravitational force causes objects that have mass to be pulled down on a planet.'}
 ```
 
+For batch evaluation of instances at various angles, see [`macaw/batch_eval.py`](macaw/batch_eval.py) for pointers.
 
 ## Supported slots
 
@@ -114,7 +115,7 @@ from Macaw (at different sizes), as well as outputs from [GPT3](https://arxiv.or
 
 ## Demo
 
-See the [demo folder](demo) for instructions and code to host an interactive version of Macaw.
+See [DEMO.md](DEMO.md) for instructions and code to host an interactive version of Macaw.
 
 ## Training data
 
