@@ -62,7 +62,8 @@ output = model.generate(input_ids, max_length=200)
 ['$answer$ = gray ; $mcoptions$ = (A) blue (B) white (C) grey (D) white']
 ```
 
-Note there's no guarantee the different slots are fully coherent, as in gray/grey (and duplicate "white") here,
+(run `pip install -r requirements.txt` if any dependencies are missing). Note there's no guarantee the different 
+slots are fully coherent, as in gray/grey (and duplicate "white") here,
 more so for the macaw-large model vs the larger ones.
 
 The code in `macaw/utils.py` includes some convenience wrappers, such as `load_model` and 
