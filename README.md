@@ -174,8 +174,14 @@ offensive material, so appropriate caution is advised when using the model.
 
 ## Citation
 
-If you use Macaw in your work, please reference the related [paper]() using
+If you use Macaw in your work, please reference the related [paper](https://arxiv.org/abs/2109.02593) using
 
 ```
-@article{...}
+@article{Tafjord2021Macaw,
+  title={General-Purpose Question-Answering with {M}acaw},
+  author={Oyvind Tafjord and Peter Clark},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2109.02593}
+}
 ```
