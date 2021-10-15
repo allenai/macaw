@@ -55,7 +55,7 @@ def load_model(model_name_or_path, cuda_devices = None):
         current = 0
         for device in cuda_devices:
             next = current + layers_per_gpu
-            if len(device_map) + 1 >= has_one_extra:
+            if len(device_map) >= has_one_extra:
                 next += 1
             device_map[device] = list(range(current, next))
             current = next
