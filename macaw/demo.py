@@ -80,6 +80,10 @@ def main():
         "Generator settings": debug_page,
     }
 
+    query_params = st.experimental_get_query_params()
+    if 'input' in query_params:
+        state.input = query_params['input'][0]
+
     st.sidebar.title("Pages")
     page = st.sidebar.radio("Select page", tuple(pages.keys()))
 
@@ -184,6 +188,7 @@ def main_page(state):
                                height=150)
 
     if st.button("Get response!"):
+        st.experimental_set_query_params(**{"input": state.input})
         get_response(state)
 
     # st.write("## Top output:")
