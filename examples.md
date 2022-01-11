@@ -11,11 +11,11 @@ and [Jurassic-1](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1
 both evaluated zero-shot with a simple prompt "Q: \<question text\>\nA:" and zero temperature.
 
 For the largest models we include scores given by a human evaluator, the overall scores are:
-   * Macaw-11B: 75.0%
+   * Macaw-11B: 74.7%
    * Macaw-answer-11B: 76.0%
-   * GPT3-davinci: 64.9%
+   * GPT3-davinci: 65.6%
    * Jurassic-1-jumbo: 64.8%
-   * T5-XXL-SSM-NQ: 57.3%
+   * T5-XXL-SSM-NQ: 57.5%
    
 A TSV file with the same data can be found in [challenge300-outputs.tsv](challenge300-outputs.tsv).
 
@@ -51,7 +51,7 @@ Asteroids are small enough that they are affected</b> (credit: 1)
    * T5-small-SSM-NQ: <b>A simple explanation</b>
 
 Q3: <b>How can I build a tent if I only have a tarpaulin, a tent peg, and a piece of rope?</b>
-   * Macaw-11B: <b>make a frame</b> (credit: 0.5)
+   * Macaw-11B: <b>make a frame</b> (credit: 0)
    * Macaw-3B: <b>i can use the rope to tie the tarp to the tent pegs</b>
    * Macaw-large: <b>use two pieces of wood</b>
    * Macaw-answer-11B: <b>make a frame</b> (credit: 0.5)
@@ -337,13 +337,13 @@ Q24: <b>What can't I cut with a knife?</b>
    * T5-small-SSM-NQ: <b>hack a knife</b>
 
 Q25: <b>Can I cut a bone with a knife?</b>
-   * Macaw-11B: <b>yes</b> (credit: 0)
+   * Macaw-11B: <b>yes</b> (credit: 1)
    * Macaw-3B: <b>yes</b>
    * Macaw-large: <b>yes</b>
-   * Macaw-answer-11B: <b>yes</b> (credit: 0)
-   * GPT3-davinci: <b>Yes, but it's not recommended.</b> (credit: 0)
-   * Jurassic-1-jumbo: <b>Yes, you can cut a bone with a knife.</b> (credit: 0)
-   * T5-XXL-SSM-NQ: <b>A knife can cut through bone</b> (credit: 0)
+   * Macaw-answer-11B: <b>yes</b> (credit: 1)
+   * GPT3-davinci: <b>Yes, but it's not recommended.</b> (credit: 1)
+   * Jurassic-1-jumbo: <b>Yes, you can cut a bone with a knife.</b> (credit: 1)
+   * T5-XXL-SSM-NQ: <b>A knife can cut through bone</b> (credit: 1)
    * T5-11B-SSM-NQ: <b>bone saw</b>
    * T5-XL-SSM-NQ: <b>with the tapper</b>
    * T5-large-SSM-NQ: <b>Yes</b>
@@ -733,7 +733,7 @@ Q54: <b>I bought a ticket to Hawaii. Where is the ticket now?</b>
    * T5-small-SSM-NQ: <b>have a good trip</b>
 
 Q55: <b>I bought a ticket to Hawaii. Where was the ticket before?</b>
-   * Macaw-11B: <b>new york</b> (credit: 0.5)
+   * Macaw-11B: <b>new york</b> (credit: 0)
    * Macaw-3B: <b>my wallet</b>
    * Macaw-large: <b>california</b>
    * Macaw-answer-11B: <b>the airport</b> (credit: 1)
@@ -774,7 +774,7 @@ Q57: <b>Amy, Betty, Charlie, David, Ezra, Flip, and George go to a party; Betty 
 ## Estimation
 
 Q58: <b>How many banknotes can you fit in a school bus?</b>
-   * Macaw-11B: <b>5000</b> (credit: 0.5)
+   * Macaw-11B: <b>5000</b> (credit: 0)
    * Macaw-3B: <b>a hundred</b>
    * Macaw-large: <b>50</b>
    * Macaw-answer-11B: <b>a lot</b> (credit: 0)
@@ -1918,7 +1918,7 @@ Q144: <b>Why was Aristotle's hometown more similar to California than New York?<
    * T5-small-SSM-NQ: <b>trade</b>
 
 Q145: <b>Why would Aristotle have preferred a short-sleeved shirt over a warm jacket?</b>
-   * Macaw-11B: <b>he was a warm-blooded person</b> (credit: 0.5)
+   * Macaw-11B: <b>he was a warm-blooded person</b> (credit: 0)
    * Macaw-3B: <b>to conserve warmth</b>
    * Macaw-large: <b>he was cold-blooded</b>
    * Macaw-answer-11B: <b>he was a naturalist</b> (credit: 0)
@@ -1948,7 +1948,7 @@ Q147: <b>How would you make a rope stronger?</b>
    * Macaw-3B: <b>add more fibers</b>
    * Macaw-large: <b>tie it up</b>
    * Macaw-answer-11B: <b>add strands</b> (credit: 1)
-   * GPT3-davinci: <b>You could make it thicker, or you could make it longer.</b> (credit: 0)
+   * GPT3-davinci: <b>You could make it thicker, or you could make it longer.</b> (credit: 0.5)
    * Jurassic-1-jumbo: <b>Add more strands to it.</b> (credit: 1)
    * T5-XXL-SSM-NQ: <b>strands of smaller diameter</b> (credit: 0.5)
    * T5-11B-SSM-NQ: <b>by wrapping it in plastic</b>
@@ -2464,7 +2464,7 @@ Q186: <b>If you pulled the leaves off a plant, how would it be affected?</b>
    * Macaw-3B: <b>it would die</b>
    * Macaw-large: <b>the plant would die</b>
    * Macaw-answer-11B: <b>it would die</b> (credit: 1)
-   * GPT3-davinci: <b>The plant would be affected in a negative way.</b> (credit: 0)
+   * GPT3-davinci: <b>The plant would be affected in a negative way.</b> (credit: 0.5)
    * Jurassic-1-jumbo: <b>If you pulled the leaves off a plant, the plant would die.</b> (credit: 1)
    * T5-XXL-SSM-NQ: <b>plant death</b> (credit: 1)
    * T5-11B-SSM-NQ: <b>stressed</b>
@@ -2607,7 +2607,7 @@ Q196: <b>What is an implication of a cat being an animal?</b>
    * T5-small-SSM-NQ: <b>the human's environment</b>
 
 Q197: <b>What is an incorrect implication of a cat being an animal?</b>
-   * Macaw-11B: <b>it is a human</b> (credit: 0)
+   * Macaw-11B: <b>it is a human</b> (credit: 1)
    * Macaw-3B: <b>it is a kind of human</b>
    * Macaw-large: <b>it weighs a lot</b>
    * Macaw-answer-11B: <b>cats are not sentient</b> (credit: 1)
@@ -2833,13 +2833,13 @@ Q213: <b>A student perfoms an experiment growing two plants. One plant is placed
    * T5-small-SSM-NQ: <b>the osmotic flow of light</b>
 
 Q214: <b>A student performs an experiment growing two plants. One plant is placed in a dark room and the other plant is placed near a window. The plant near the window grows slower than the plant in the dark. What does this experiment suggest?</b>
-   * Macaw-11B: <b>plants need sunlight</b> (credit: 1)
+   * Macaw-11B: <b>plants need sunlight</b> (credit: 0)
    * Macaw-3B: <b>light affects plant growth</b>
    * Macaw-large: <b>light has a positive impact on plants</b>
-   * Macaw-answer-11B: <b>plants need sunlight</b> (credit: 1)
+   * Macaw-answer-11B: <b>plants need sunlight</b> (credit: 0)
    * GPT3-davinci: <b>The experiment suggests that plants need light to grow.</b> (credit: 0)
-   * Jurassic-1-jumbo: <b>The experiment suggests that plants need sunlight to grow.</b> (credit: 1)
-   * T5-XXL-SSM-NQ: <b>photosynthesis</b> (credit: 0.5)
+   * Jurassic-1-jumbo: <b>The experiment suggests that plants need sunlight to grow.</b> (credit: 0)
+   * T5-XXL-SSM-NQ: <b>photosynthesis</b> (credit: 0)
    * T5-11B-SSM-NQ: <b>light deprivation</b>
    * T5-XL-SSM-NQ: <b>light affects growth</b>
    * T5-large-SSM-NQ: <b>self-incompatibility</b>
