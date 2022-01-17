@@ -116,6 +116,8 @@ from Macaw (at different sizes), as well as outputs from [GPT3](https://arxiv.or
 
 ## Demo
 
+- :white_check_mark: Integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio). See [Gradio Web Demo](https://huggingface.co/spaces/akhaliq/macaw-large).
+
 See [DEMO.md](DEMO.md) for instructions and code to host an interactive version of Macaw.
 
 ## Training data
